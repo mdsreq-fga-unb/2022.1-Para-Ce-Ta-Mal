@@ -4,8 +4,8 @@ Projeto realizado por equipes das disciplinas de MDS e REQ, Engenharia de Softwa
 ## Contribuidores
 
 
-|Nome                             |GitHub                             | 
-| --------                        | --------                          |
-|Lucas Rodrigues Cardoso          |https://github.com/lucascard       |
-|                                 |                                   |
-|                                 |                                   |
+|Nome                             | DS        |GitHub                             | 
+| --------                        | --------  |--------                           | 
+|Lucas Rodrigues Cardoso          | MDS       |https://github.com/lucascard       |                                   
+|                                 |           |                                   |
+|                                 |           |                                   |
