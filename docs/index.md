@@ -53,7 +53,7 @@ As tecnologias foram determinadas de acordo com a necessidade das atividades a s
 
 <p style="text-indent: 20px; text-align: justify"> O ElectroFarm é um software livre, acessível a farmácias de pequeno e médio porte para a de venda e controle de estoque de produtos farmacêuticos. Esse produto tem como foco a experiência do usuário, portanto sua inteligibilidade, apreensibilidade e operacionalidade para proporcionar máxima eficiência e eficácia são os seus pontos de destaque. É uma alternativa de entrada de alta qualidade e gratuita que traz o aumento da performance na venda dos produtos, fácil de treinar novos operadores. Tendo em vista que os sistemas atuais não possuem atualizações de grande magnitude e sim apenas manutenções, esse produto torna-se o único sistema de baixo custo com alta performance. </p>
 
-| Software      | (nome do software)                                                                                                       |
+| Software      | ElectroFarm                                                                                                              |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | Para          | Gabriel e Rose (donos do estabelecimento)                                                                                |
 | Quem          | Necessita de um sistema para vendas e controle de estoque de uma farmácia                                                |
