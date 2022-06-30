@@ -1,6 +1,9 @@
 # 2022.1-Para-Ce-Ta-Mal
 Projeto realizado por equipes das disciplinas de MDS e REQ, Engenharia de Software, UnB.
 
+## Link github pages
+- https://mdsreq-fga-unb.github.io/2022.1-Para-Ce-Ta-Mal/
+
 ## Contribuidores
 
 
@@ -16,8 +19,7 @@ Projeto realizado por equipes das disciplinas de MDS e REQ, Engenharia de Softwa
 | Magno Luiz          | 180042696 | https://github.com/magnluiz         | REQ        |
 | Vinicius Alves      | 190096373 | https://github.com/viniciusalves999 | REQ        |
 
-## Link github pages
-- https://mdsreq-fga-unb.github.io/2022.1-Para-Ce-Ta-Mal/
+
 ## Link apresentação 
 
 - https://www.youtube.com/watch?v=EXdARCLqR9Q
