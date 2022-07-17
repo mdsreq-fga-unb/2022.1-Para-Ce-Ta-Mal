@@ -3,7 +3,7 @@
 É uma forma visual de alinhar a estratégia e construção da versão mínima do produto com o auxílio dos donos do negócio.
 
 ## Link do Canvas no Miro
- - https://miro.com/app/board/uXjVOlmzVLk=/
+ - https://miro.com/app/board/uXjVOlmzVLk=/?share_link_id=2986912574
 
 
 <img src="https://i.imgur.com/QioU4Zh.jpg"
