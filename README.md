@@ -1,9 +1,6 @@
 # 2022.1-Para-Ce-Ta-Mal
 Projeto realizado por equipes das disciplinas de MDS e REQ, Engenharia de Software, UnB.
 
-## Requisitos
-- https://docs.google.com/document/d/1vInnfpg3fRdmUYG2p1oAsXSceXOAIEKxHe0W7PV0twQ/edit
-
 ## Link github pages
 - https://mdsreq-fga-unb.github.io/2022.1-Para-Ce-Ta-Mal/
 
