@@ -55,7 +55,7 @@ As tecnologias foram determinadas de acordo com a necessidade das atividades a s
 
 | Software      | ElectroFarm                                                                                                              |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| Para          | Gabriel e Rose (donos do estabelecimento)                                                                                |
+| Para          | Gabriel e Rose (donos do negócio)                                                                                |
 | Quem          | Necessita de um sistema para vendas e controle de estoque de uma farmácia                                                |
 | O             | É uma solução cliente-servidor                                                                                           |
 | Que           | É de acessível aquisição, com foco na usabilidade do usuário, permitindo funcionalidades de controle de vendas e estoque |
