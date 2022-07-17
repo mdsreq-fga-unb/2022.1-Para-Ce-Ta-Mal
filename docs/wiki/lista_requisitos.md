@@ -9,7 +9,7 @@
 |RF02|O sistema deve permitir a alteração de dados de um produto.|
 |RF03|O sistema deve permitir a exclusão de um produto.|
 |RF04|O sistema deve permitir o registro de um funcionário.|
-|RF05|O sistema deve permitir a alteração dados de um funcionário.|
+|RF05|O sistema deve permitir a alteração de dados de um funcionário.|
 |RF06|O sistema deve permitir a exclusão de um funcionário.|
 |RF07|O sistema deve permitir que os funcionários realizem login e logout.|
 |RF08|O sistema deve permitir que balconistas e perfumistas apliquem descontos sobre o preço de um produto, bem como alterar a quantidade.|
@@ -21,7 +21,7 @@
 |RF14|O sistema deve permitir que o perfumista e o balconista atrelem o nome do cliente a uma venda.|
 |RF15|O sistema deve ser capaz de mandar as vendas para os computadores com caixa aberto.|
 |RF16|O sistema deve permitir que os vendedores classifiquem a venda como entrega residencial.|
-|RF17|O sistema deve ser capaz de atrelar endereço, telefone e nome do cliente para vendas do tipo entrega residencial.|
+|RF17|O sistema deve ser capaz de atrelar endereço, telefone e nome do cliente à vendas do tipo entrega residencial.|
 |RF18|O sistema deve ser capaz de imprimir os dados da entrega ou colocá-los na nota fiscal.|
 |RF19|O sistema deve ser capaz de registrar os vendedores responsáveis pela venda.|
 |RF20|O sistema deve ser capaz de identificar mais de um vendedor, se forem de classes distintas (perfumista ou balconista), na mesma venda.|
