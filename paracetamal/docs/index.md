@@ -82,6 +82,7 @@ As tecnologias foram determinadas de acordo com a necessidade das atividades a s
 | Desenvolvimento       | Codificar o produto, codificar testes unitários, realizar refatoração.                                                                                                                               | Gustavo     | Arthur, Lucas, João Paulo   |
 | Design                | Criar as telas e todo o layout do produto, garantir a fidelidade das telas para com o que o cliente deseja.                                                                                          | Luiz        | Vinicius, Carlos, Magno     |
 | Devops                | Implementação, manutenção e atualização do ciclo de vida do software                                                                                                                                                                                       | Gustavo     | Arthur, Lucas, João Paulo   |
+| Dono do Produto       | Atualizar o escopo do produto, organizar o escopo das sprints, validar as entregas.                                                                                                                  | Rose        | Gabriel                     |
 | Scrum Master          | Garantir que o Time Scrum se oriente pelos valores e práticas do Scrum, certifica-se de que os membros não se comprometam com compromissos além dos que eles conseguem cumprir dentro de uma Sprint. | Vinícius    | Gian, Magno                 |
 | Product Owner         | Tem a visão do que será desenvolvido, as necessidades a serem atendidas, o público que vai utilizar os serviços, e objetivos a serem alcançados.                                                     | Carlos      | Luiz, Gian                  |
 
@@ -236,7 +237,3 @@ PBB, User Story, User Story Mapping, BDD
 * Definição de cada função no time;
 
 * Melhor definição do limite da fronteira entre as duas equipes.
-
-## Referências Bibliográficas
-
-### 1 
