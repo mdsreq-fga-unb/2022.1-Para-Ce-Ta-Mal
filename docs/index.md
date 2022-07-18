@@ -91,7 +91,18 @@ As tecnologias foram determinadas de acordo com a necessidade das atividades a s
 | Sprint   | Produto                       | Data início | Data Fim |
 | -------- | ----------------------------- | ----------- | -------- |
 | Sprint 1 | Definição do Produto          | 22/06/2022  | 29/06/22 |
-| Sprint 2 | MVP e Planejamento do Projeto | 01/07/2022  | 08/07/22 |
+| Unidade 1| Entrega da Unidade 1          | 30/06/2022  | 30/06/22 |
+| Sprint 2 | Levantamento de Requisitos com o cliente | 01/07/2022  | 08/07/22 |
+| Sprint 3 | Canvas MVP e Planejamento do Projeto | 09/07/2022  | 15/07/22 |
+| Sprint 4 | Confecção Backlog e Processo de Engenharia de Requisitos | 16/07/2022  | 20/07/22 |
+| Unidade 2| Entrega da Unidade 2          | 21/06/2022  | 21/06/22 |
+| Sprint 5 | Organização dos requisitos para inicio do desenvolvimento do produto | 22/07/2022 | 28/07/2022 |
+| Sprint 6 | Desenvolvimento do MVP1 | 29/07/2022 | 04/08/2022 |
+| Sprint 7 | Desenvolvimento do MVP1 | 05/08/2022 | 11/08/2022 |
+
+Fundamentos, conceitos e exercícios.
+PBB, User Story, User Story Mapping, BDD
+2) Aplicação das ferramentas, métodos e técnicas de requisitos
 
 ### 2.3 Matriz de Comunicação
 
