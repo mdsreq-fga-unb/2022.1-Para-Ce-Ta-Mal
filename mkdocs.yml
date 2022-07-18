@@ -1,5 +1,9 @@
 site_name: Para Cê Tá Mal
-site_url: https://paracetamal.com/
+
+theme: 
+    name: material
+    language: pt
+
 nav:
     - Home: index.md
     - Canvas MVP: canvas_mvp.md
