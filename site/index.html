@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>Para Cê Tá Mal</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="js/jquery-1.10.2.min.js" defer></script>
+        <script src="js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">Para Cê Tá Mal</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem active">
+                                <a href="." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="canvas_mvp/" class="nav-link">Canvas MVP</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="lista_requisitos/" class="nav-link">Lista de Requisitos</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" class="nav-link disabled">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="canvas_mvp/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#electrofarm" class="nav-link">ElectroFarm</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#sobre-o-projeto" class="nav-link">📄 Sobre o projeto</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#tecnologias-utilizadas" class="nav-link">⚙️ Tecnologias utilizadas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#colaboradores" class="nav-link">🤝 Colaboradores</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#historico-de-revisao" class="nav-link">Histórico de Revisão</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#1-visao-geral-do-produto" class="nav-link">1. Visão Geral do Produto</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#2-visao-geral-do-projeto" class="nav-link">2 Visão Geral do Projeto</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#3-processo-de-desenvolvimento-de-software" class="nav-link">3 Processo de Desenvolvimento de Software</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#4-processo-de-engenharia-de-requisitos" class="nav-link">4 Processo de Engenharia de Requisitos</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#5-licoes-aprendidas" class="nav-link">5 Lições Aprendidas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="electrofarm">ElectroFarm</h1>
+<div align="center">
+   <h1> 2022-1- Para cê tá mal </h1>
+   <h3>Versão [2.0]</h3>
+</div>
+
+<p><br/></p>
+<h2 id="sobre-o-projeto">📄 Sobre o projeto</h2>
+<p style="text-indent: 20px; text-align: justify"> Este projeto visa ser um facilitador para farmácias de pequeno e médio porte que precisam de um software para o seu funcionamento. Por ser um software livre, é totalmente gratuito. Utilizando tecnologias emergentes, iremos mudar a concepção de software farmacêutico. </p>
+
+<p><br/></p>
+<h2 id="tecnologias-utilizadas">⚙️ Tecnologias utilizadas</h2>
+<p>As tecnologias foram determinadas de acordo com a necessidade das atividades a serem desenvolvidas.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Frontend</th>
+<th style="text-align: center;">Backend</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Electron.js</td>
+<td style="text-align: center;">Node.js</td>
+</tr>
+</tbody>
+</table>
+<h2 id="colaboradores">🤝 Colaboradores</h2>
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Matrícula</th>
+<th>GitHub</th>
+<th>Disciplina</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Arthur D'Assumpcao</td>
+<td>190084570</td>
+<td>https://github.com/ArtAssLou</td>
+<td>MDS</td>
+</tr>
+<tr>
+<td>Carlos Daniel</td>
+<td>190011408</td>
+<td>https://github.com/yesklin</td>
+<td>REQ</td>
+</tr>
+<tr>
+<td>Gian Medeiros</td>
+<td>190055006</td>
+<td>https://github.com/GianMedeiros</td>
+<td>REQ</td>
+</tr>
+<tr>
+<td>Gustavo Barbosa</td>
+<td>180042041</td>
+<td>https://github.com/brbsg</td>
+<td>MDS</td>
+</tr>
+<tr>
+<td>João Paulo Monteiro</td>
+<td>202045141</td>
+<td>https://github.com/joaombc</td>
+<td>MDS</td>
+</tr>
+<tr>
+<td>Lucas Rodrigues</td>
+<td>200059211</td>
+<td>https://github.com/lucascard</td>
+<td>MDS</td>
+</tr>
+<tr>
+<td>Luiz Gustavo</td>
+<td>180023179</td>
+<td>https://github.com/Luiz-GL-Campos</td>
+<td>REQ</td>
+</tr>
+<tr>
+<td>Magno Luiz</td>
+<td>180042696</td>
+<td>https://github.com/magnluiz</td>
+<td>REQ</td>
+</tr>
+<tr>
+<td>Vinicius Alves</td>
+<td>190096373</td>
+<td>https://github.com/viniciusalves999</td>
+<td>REQ</td>
+</tr>
+</tbody>
+</table>
+<p><br/></p>
+<h2 id="historico-de-revisao">Histórico de Revisão</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>29/06/2022</td>
+<td>1.0</td>
+<td>Criação do Documento e informações iniciais do projeto</td>
+<td>REQ-MDS</td>
+</tr>
+</tbody>
+</table>
+<div align="center">
+   <h2> Visão do Produto e Projeto </h2>
+</div>
+
+<h2 id="1-visao-geral-do-produto">1. Visão Geral do Produto</h2>
+<h3 id="11-declaracao-de-posicao-do-produto">1.1 Declaração de posição do produto</h3>
+<p style="text-indent: 20px; text-align: justify"> O ElectroFarm é um software livre, acessível a farmácias de pequeno e médio porte para a de venda e controle de estoque de produtos farmacêuticos. Esse produto tem como foco a experiência do usuário, portanto sua inteligibilidade, apreensibilidade e operacionalidade para proporcionar máxima eficiência e eficácia são os seus pontos de destaque. É uma alternativa de entrada de alta qualidade e gratuita que traz o aumento da performance na venda dos produtos, fácil de treinar novos operadores. Tendo em vista que os sistemas atuais não possuem atualizações de grande magnitude e sim apenas manutenções, esse produto torna-se o único sistema de baixo custo com alta performance. </p>
+
+<table>
+<thead>
+<tr>
+<th>Software</th>
+<th>ElectroFarm</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Para</td>
+<td>Gabriel e Rose (donos do negócio)</td>
+</tr>
+<tr>
+<td>Quem</td>
+<td>Necessita de um sistema para vendas e controle de estoque de uma farmácia</td>
+</tr>
+<tr>
+<td>O</td>
+<td>É uma solução cliente-servidor</td>
+</tr>
+<tr>
+<td>Que</td>
+<td>É de acessível aquisição, com foco na usabilidade do usuário, permitindo funcionalidades de controle de vendas e estoque</td>
+</tr>
+<tr>
+<td>Ao contrário</td>
+<td>De produtos como “Vetor Farma” e “InovaFarma”</td>
+</tr>
+<tr>
+<td>Nosso produto</td>
+<td>É um software gratuito com foco na usabilidade do usuário</td>
+</tr>
+</tbody>
+</table>
+<h3 id="12-objetivos-do-produto">1.2 Objetivos do Produto</h3>
+<p style="text-indent: 20px; text-align: justify"> O principal objetivo do ElectroFarm é a  venda de produtos farmacêuticos e o controle de estoque dos mesmos. Como objetivos secundários, teremos o cálculo da comissão vendedor receberá e a análise de vendas por período.
+</p>
+
+<h3 id="13-tecnologias-a-serem-utilizadas">1.3 Tecnologias a Serem Utilizadas</h3>
+<p style="text-indent: 20px; text-align: justify" > Electron.JS, NodeJS com TypeScript. No banco de dados usaremos PostgreSQL com Prisma ORM e Docker Compose, para testes usaremos JEST e CYPRESS.
+</p>
+
+<h2 id="2-visao-geral-do-projeto">2 Visão Geral do Projeto</h2>
+<h3 id="21-organizacao-do-projeto">2.1 Organização do Projeto</h3>
+<table>
+<thead>
+<tr>
+<th>Papel</th>
+<th>Atribuições</th>
+<th>Responsável</th>
+<th>Participantes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Analista de Qualidade</td>
+<td>Garantir a qualidade do produto, garantir o cumprimento do conceito de pronto, realizar inspeções de código.</td>
+<td>Lucas</td>
+<td>Arthur, Gustavo, João Paulo</td>
+</tr>
+<tr>
+<td>Desenvolvimento</td>
+<td>Codificar o produto, codificar testes unitários, realizar refatoração.</td>
+<td>Gustavo</td>
+<td>Arthur, Lucas, João Paulo</td>
+</tr>
+<tr>
+<td>Design</td>
+<td>Criar as telas e todo o layout do produto, garantir a fidelidade das telas para com o que o cliente deseja.</td>
+<td>Luiz</td>
+<td>Vinicius, Carlos, Magno</td>
+</tr>
+<tr>
+<td>Devops</td>
+<td>Implementação, manutenção e atualização do ciclo de vida do software</td>
+<td>Gustavo</td>
+<td>Arthur, Lucas, João Paulo</td>
+</tr>
+<tr>
+<td>Dono do Produto</td>
+<td>Atualizar o escopo do produto, organizar o escopo das sprints, validar as entregas.</td>
+<td>Rose</td>
+<td>Gabriel</td>
+</tr>
+<tr>
+<td>Scrum Master</td>
+<td>Garantir que o Time Scrum se oriente pelos valores e práticas do Scrum, certifica-se de que os membros não se comprometam com compromissos além dos que eles conseguem cumprir dentro de uma Sprint.</td>
+<td>Vinícius</td>
+<td>Gian, Magno</td>
+</tr>
+<tr>
+<td>Product Owner</td>
+<td>Tem a visão do que será desenvolvido, as necessidades a serem atendidas, o público que vai utilizar os serviços, e objetivos a serem alcançados.</td>
+<td>Carlos</td>
+<td>Luiz, Gian</td>
+</tr>
+</tbody>
+</table>
+<h3 id="22-planejamento-das-fases-eou-iteracoes-do-projeto">2.2 Planejamento das Fases e/ou Iterações do Projeto</h3>
+<table>
+<thead>
+<tr>
+<th>Sprint</th>
+<th>Produto</th>
+<th>Data início</th>
+<th>Data Fim</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sprint 1</td>
+<td>Definição do Produto</td>
+<td>22/06/2022</td>
+<td>29/06/22</td>
+</tr>
+<tr>
+<td>Unidade 1</td>
+<td>Entrega da Unidade 1</td>
+<td>30/06/2022</td>
+<td>30/06/22</td>
+</tr>
+<tr>
+<td>Sprint 2</td>
+<td>Levantamento de Requisitos com o cliente</td>
+<td>01/07/2022</td>
+<td>08/07/22</td>
+</tr>
+<tr>
+<td>Sprint 3</td>
+<td>Canvas MVP e Planejamento do Projeto</td>
+<td>09/07/2022</td>
+<td>15/07/22</td>
+</tr>
+<tr>
+<td>Sprint 4</td>
+<td>Confecção Backlog e Processo de Engenharia de Requisitos</td>
+<td>16/07/2022</td>
+<td>20/07/22</td>
+</tr>
+<tr>
+<td>Unidade 2</td>
+<td>Entrega da Unidade 2</td>
+<td>21/06/2022</td>
+<td>21/06/22</td>
+</tr>
+<tr>
+<td>Sprint 5</td>
+<td>Organização dos requisitos para inicio do desenvolvimento do produto</td>
+<td>22/07/2022</td>
+<td>28/07/2022</td>
+</tr>
+<tr>
+<td>Sprint 6</td>
+<td>Desenvolvimento do MVP1</td>
+<td>29/07/2022</td>
+<td>04/08/2022</td>
+</tr>
+<tr>
+<td>Sprint 7</td>
+<td>Desenvolvimento do MVP1</td>
+<td>05/08/2022</td>
+<td>11/08/2022</td>
+</tr>
+</tbody>
+</table>
+<p>Fundamentos, conceitos e exercícios.
+PBB, User Story, User Story Mapping, BDD
+2) Aplicação das ferramentas, métodos e técnicas de requisitos</p>
+<h3 id="23-matriz-de-comunicacao">2.3 Matriz de Comunicação</h3>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+<th>Área/Envolvidos</th>
+<th>Periodicidade</th>
+<th>Produtos Gerados</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Acompanhamento das Atividades em Andamento (Sprint Review)</td>
+<td>Equipe do Projeto e Cliente</td>
+<td>Semanal</td>
+<td>Ata de reunião e Relatório de situação do projeto</td>
+</tr>
+<tr>
+<td>Comunicar a situação do projeto</td>
+<td>Equipe do Projeto, Cliente e Professor</td>
+<td>Semanal</td>
+<td>Ata de reunião e Relatório de situação do projeto</td>
+</tr>
+<tr>
+<td>Acompanhamento dos Riscos, Compromissos, Ações Pendentes, Indicadores</td>
+<td>Equipe do Projeto e Cliente</td>
+<td>Quinzenal</td>
+<td>Ata de reunião e Relatório de situação do projeto</td>
+</tr>
+<tr>
+<td>Comunicação sobre a situação das atividades sendo executadas</td>
+<td>Equipe do Projeto</td>
+<td>Diária</td>
+<td>Ata via Telegram ou Discord</td>
+</tr>
+</tbody>
+</table>
+<h3 id="24-gerenciamento-de-riscos">2.4 Gerenciamento de Riscos</h3>
+<p style="text-indent: 20px; text-align: justify" > Para gerenciar os riscos do nosso projeto, primeiramente o avaliamos como um todo, requisitos funcionais e não funcionais, tecnologias a serem utilizadas para desenvolvimento do projeto, qual o método de desenvolvimento a equipe utilizaria, quais são os impedimentos para a realização das atividades ou comunicação com o cliente. Cada um desses pontos gerou certas preocupações entre os integrantes da equipe, e para que não hajam complicações ou impedimentos devido a algum acontecimento inesperado em relação aos temas discutidos, resolvemos realizar as seguintes tarefas: </p>
+
+<ul>
+<li>
+<p>Sempre identificar os riscos no início das diferentes fases do projeto, levando em consideração as ferramentas que serão utilizadas, disponibilidade, conhecimento da equipe e também comunicação aberta e fácil com todos os envolvidos.</p>
+</li>
+<li>
+<p>Realizar atividades para diminuir os riscos. Ou seja, verificar se todo o time têm facilidade com uma ferramenta escolhida, senão como ensinar a um membro essa nova tecnologia, definir métodos de comunicação que fique fácil para todos, sempre comunicar dificuldades para a equipe se situar e poder contornar a situação antes que se agrave. Difundir o conhecimento para que todos possam aprender e melhorar constantemente.</p>
+</li>
+<li>
+<p>Revisar os riscos a cada sprint(por se tratar de um processo ágil porém adaptado a equipe).</p>
+</li>
+<li>
+<p>Caso algum risco venha a ser identificado mas já tinha sido previsto antes, realizar as atividades com formas de resolvê-lo o mais breve possível.</p>
+</li>
+<li>
+<p>Sempre manter registrados os riscos para que a equipe tenha acesso e consiga se preparar para contornar o problema caso ocorra.</p>
+</li>
+</ul>
+<h3 id="25-criterios-de-replanejamento">2.5 Critérios de Replanejamento</h3>
+<p style="text-ident: 20px; text-align: justify" > O projeto poderá ser replanejado se: </p>
+
+<ul>
+<li>A equipe encontrar dificuldades com o cumprimento da metodologia selecionada.</li>
+<li>A equipe ter problemas em aprender as ferramentas novas que não conheçem e que sejam necessárias.</li>
+<li>Caso haja algum problema que não possa ser resolvido de forma rápida, como a disponibilidade ou comunicação do cliente(incluindo problemas de saúde ou comunicação com a equipe).</li>
+<li>Se o cliente ou a equipe decidirem futuramente um método melhor para o desenvolvimento da nossa solução.</li>
+</ul>
+<h2 id="3-processo-de-desenvolvimento-de-software">3 Processo de Desenvolvimento de Software</h2>
+<p style="text-ident: 20px; text-align: justify" > Boas práticas de programação com Pair programming, de forma que todo o time seja rotativo e linear, garantindo o desenvolvimento técnico de todos. Usaremos o ciclo de vida evolutivo, pois os requisitos podem variar. Seguiremos a metodologia ágil com diversas cerimônias do Scrum.
+</p>
+
+<h3 id="31-analise-e-design">3.1 Análise e Design</h3>
+<table>
+<thead>
+<tr>
+<th>Atividade</th>
+<th>Método</th>
+<th>Ferramenta</th>
+<th>Entrega</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Elaboração do design da interface</td>
+<td>Reunião Remota</td>
+<td>Figma</td>
+<td>Protótipo de alta fidelidade</td>
+</tr>
+<tr>
+<td>Modelagem da arquitetura</td>
+<td>Reunião Remota</td>
+<td>Draw.io</td>
+<td>Arquitetura do projeto</td>
+</tr>
+<tr>
+<td>Modelagem do banco de dados</td>
+<td>Reunião Remota</td>
+<td>DBdesigner</td>
+<td>Design do banco de dados</td>
+</tr>
+<tr>
+<td>Design de testes</td>
+<td>Reunião Remota</td>
+<td>LucidChart</td>
+<td>Diagrama da estrutura de testes</td>
+</tr>
+</tbody>
+</table>
+<h3 id="32-atividade-2">3.2 Atividade 2</h3>
+<table>
+<thead>
+<tr>
+<th>Atividade</th>
+<th>Método</th>
+<th>Ferramenta</th>
+<th>Entrega</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Construção da Interface</td>
+<td>Pair Programming</td>
+<td>Electron</td>
+<td>Construção do front-end</td>
+</tr>
+<tr>
+<td>Construção do API</td>
+<td>Pair Programming</td>
+<td>NodeJS + Express</td>
+<td>Construção do Back-end</td>
+</tr>
+<tr>
+<td>Construção do Banco de Dados</td>
+<td>Pair Programming</td>
+<td>PostgreSQL</td>
+<td>Banco de dados Modelado</td>
+</tr>
+</tbody>
+</table>
+<h3 id="33-atividade-3">3.3 Atividade 3</h3>
+<table>
+<thead>
+<tr>
+<th>Atividade</th>
+<th>Método</th>
+<th>Ferramenta</th>
+<th>Entrega</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Criação de cenários de teste</td>
+<td>Reunião remota</td>
+<td>Discord, Notion, Cucumber</td>
+<td>Documento com cenários em BDD</td>
+</tr>
+<tr>
+<td>Implementação de regressivos</td>
+<td>Reunião remota</td>
+<td>Discord, Notion</td>
+<td>Tabela com casos de aceitação</td>
+</tr>
+<tr>
+<td>Implementação de testes e2e</td>
+<td>Pair Programming</td>
+<td>Cypress.io, github actions</td>
+<td>Suíte de testes</td>
+</tr>
+<tr>
+<td>Implementação de testes unitários</td>
+<td>Pair Programming</td>
+<td>Jest</td>
+<td>Suíte de testes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="4-processo-de-engenharia-de-requisitos">4 Processo de Engenharia de Requisitos</h2>
+<p style="text-ident: 20px; text-align: justify" > Será uma abordagem ágil porém adaptada para as necessidades e disponibilidade da equipe. Essa abordagem será voltada mais para o Scrum, definimos os meios de reunião e comunicação fácil, com sprint reviews semanais, podendo assim, ser bem flexível para todos. </p>
+
+<h3 id="41-elicitacao-de-requisitos">4.1 Elicitação de Requisitos</h3>
+<table>
+<thead>
+<tr>
+<th>Atividade</th>
+<th>Método</th>
+<th>Ferramenta</th>
+<th>Entrega</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Entrevista formal aberta</td>
+<td>Reunião remota</td>
+<td>Jitsi</td>
+<td>Gravação da reunião</td>
+</tr>
+<tr>
+<td>Brainstorming</td>
+<td>Reunião remota</td>
+<td>Discord e Figma</td>
+<td>Documentação da reunião</td>
+</tr>
+<tr>
+<td>Workshop de Casos de Uso</td>
+<td>Reunião remota</td>
+<td>Jitsi</td>
+<td>Documentação dos casos de uso</td>
+</tr>
+<tr>
+<td>Histórias e Cenários</td>
+<td>Reunião remota</td>
+<td>Discord e Figma</td>
+<td>Documentação da reunião</td>
+</tr>
+<tr>
+<td>Classificação e organização de requisitos</td>
+<td>Reunião remota</td>
+<td>Discord e Figma</td>
+<td>Documentação da reunião</td>
+</tr>
+</tbody>
+</table>
+<h3 id="42-analise-de-requisitos">4.2 Análise de Requisitos</h3>
+<table>
+<thead>
+<tr>
+<th>Atividade</th>
+<th>Método</th>
+<th>Ferramenta</th>
+<th>Entrega</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Refinamento dos requisitos</td>
+<td>Reunião remota</td>
+<td>Discord e Figma</td>
+<td>Documentação da reunião</td>
+</tr>
+<tr>
+<td>Reunião com o cliente</td>
+<td>Reunião remota</td>
+<td>Jitsi</td>
+<td>Documentação da reunião</td>
+</tr>
+</tbody>
+</table>
+<h3 id="43-documentacao-de-requisitos">4.3 Documentação de Requisitos</h3>
+<table>
+<thead>
+<tr>
+<th>Atividade</th>
+<th>Método</th>
+<th>Ferramenta</th>
+<th>Entrega</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Registro dos requisitos</td>
+<td>Reunião remota</td>
+<td>Discord</td>
+<td>Requisitos de usuário e de sistema documentado</td>
+</tr>
+</tbody>
+</table>
+<h3 id="44-verificacao-e-validacao-de-requisitos">4.4 Verificação e Validação de Requisitos</h3>
+<table>
+<thead>
+<tr>
+<th>Atividade</th>
+<th>Método</th>
+<th>Ferramenta</th>
+<th>Entrega</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reunião da equipe de requisitos</td>
+<td>Reunião remota</td>
+<td>Discord</td>
+<td>Documentação de requisitos verificados e validados</td>
+</tr>
+</tbody>
+</table>
+<h3 id="45-gerenciamento-de-requisitos">4.5 Gerenciamento de Requisitos</h3>
+<table>
+<thead>
+<tr>
+<th>Atividade</th>
+<th>Método</th>
+<th>Ferramenta</th>
+<th>Entrega</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Checklist</td>
+<td>Checagem diária</td>
+<td>Kanban</td>
+<td>Documento do Kanban</td>
+</tr>
+<tr>
+<td>Reuniões de tomadas de decisão</td>
+<td>Reunião remota</td>
+<td>Discord</td>
+<td>Resumo da reunião</td>
+</tr>
+<tr>
+<td>Verificação dos impactos causados caso haja mudança</td>
+<td>Elucidação sobre a mudança e verificação de quais impactos isso causaria</td>
+<td>Discord</td>
+<td>Documento da reunião</td>
+</tr>
+</tbody>
+</table>
+<h2 id="5-licoes-aprendidas">5 Lições Aprendidas</h2>
+<h3 id="51-unidade-1">5.1 Unidade 1</h3>
+<h4 id="511-mds">5.1.1 MDS</h4>
+<ul>
+<li>
+<p>Definir um escopo e arquitetura de desenvolvimento de forma concisa;</p>
+</li>
+<li>
+<p>Gerenciar melhor o conhecimento para com as duas equipes;</p>
+</li>
+<li>
+<p>Definir a metodologia/processo que se encaixa melhor no projeto;</p>
+</li>
+<li>
+<p>Como especificar cada atividade do processo de engenharia de software;</p>
+</li>
+<li>
+<p>Conhecer suas funções e os limites de sua atuação dentro e com o time.</p>
+</li>
+</ul>
+<h4 id="512-requisitos">5.1.2 Requisitos</h4>
+<ul>
+<li>Olhar um projeto de diferentes formas, analisar todas as visões de um projeto com toda a equipe</li>
+</ul>
+<h4 id="513-mds-requisitos">5.1.3 MDS-Requisitos</h4>
+<ul>
+<li>
+<p>Gerenciamento de expectativa de toda a equipe, conversas mais calmas e esclarecedoras;</p>
+</li>
+<li>
+<p>Escolha de projeto menos preocupante em relação a disciplina e o desenvolvimento da equipe, comunicação realizada mais frequentemente;</p>
+</li>
+<li>
+<p>Definição de cada função no time;</p>
+</li>
+<li>
+<p>Melhor definição do limite da fronteira entre as duas equipes.</p>
+</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js" defer></script>
+        <script src="search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.3.0
+Build Date UTC : 2022-07-18 23:33:17.736330+00:00
+-->
