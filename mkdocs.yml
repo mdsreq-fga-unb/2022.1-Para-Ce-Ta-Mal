@@ -1,6 +1,0 @@
-site_name: Para Cê Tá Mal
-
-nav:
-    - Home: index.md
-    - Canvas MVP: canvas_mvp.md
-    - Lista de Requisitos: lista_requisitos.md
