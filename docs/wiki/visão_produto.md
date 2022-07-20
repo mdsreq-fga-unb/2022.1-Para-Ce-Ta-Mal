@@ -41,6 +41,7 @@ As tecnologias foram determinadas de acordo com a necessidade das atividades a s
 | Data       | Versão | Descrição                                              | Autor   |
 | ---------- | ------ | ------------------------------------------------------ | ------- |
 | 29/06/2022 | 1.0    | Criação do Documento e informações iniciais do projeto | REQ-MDS |
+| 20/07/2022 | 2.0    | Atualização de informações, alterações de erro da versão 1.0 |   REQ   |
 
 <div align="center">
    <h2> Visão do Produto e Projeto </h2>
@@ -54,7 +55,7 @@ As tecnologias foram determinadas de acordo com a necessidade das atividades a s
 
 | Software      | ElectroFarm                                                                                                              |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| Para          | Gabriel e Rose (donos do negócio)                                                                                |
+| Para          | Lojas farmacêuticas de pequeno e médio porte                                                                              |
 | Quem          | Necessita de um sistema para vendas e controle de estoque de uma farmácia                                                |
 | O             | É uma solução cliente-servidor                                                                                           |
 | Que           | É de acessível aquisição, com foco na usabilidade do usuário, permitindo funcionalidades de controle de vendas e estoque |
@@ -81,9 +82,8 @@ As tecnologias foram determinadas de acordo com a necessidade das atividades a s
 | Desenvolvimento       | Codificar o produto, codificar testes unitários, realizar refatoração.                                                                                                                               | Gustavo     | Arthur, Lucas, João Paulo   |
 | Design                | Criar as telas e todo o layout do produto, garantir a fidelidade das telas para com o que o cliente deseja.                                                                                          | Luiz        | Vinicius, Carlos, Magno     |
 | Devops                | Implementação, manutenção e atualização do ciclo de vida do software                                                                                                                                                                                       | Gustavo     | Arthur, Lucas, João Paulo   |
-| Cliente               | Atualizar o escopo do produto, organizar o escopo das sprints, validar as entregas.                                                                                                                  | Rose        | Gabriel                     |
+| Product Owner         | Atualizar o escopo do produto, organizar o escopo das sprints, validar as entregas.                                                                                                                  | Rose        | Gabriel                     |
 | Scrum Master          | Garantir que o Time Scrum se oriente pelos valores e práticas do Scrum, certifica-se de que os membros não se comprometam com compromissos além dos que eles conseguem cumprir dentro de uma Sprint. | Vinícius    | Gian, Magno                 |
-| Product Owner         | Tem a visão do que será desenvolvido, as necessidades a serem atendidas, o público que vai utilizar os serviços, e objetivos a serem alcançados.                                                     | Carlos      | Luiz, Gian                  |
 
 ### 2.2 Planejamento das Fases e/ou Iterações do Projeto
 
