@@ -2,3 +2,4 @@
     - [Visão do Produto](./wiki/visão_produto.md)
     - [Lista de Requisitos](./wiki/lista_requisitos.md)
     - [Canvas MVP](./wiki/canvas_mvp.md)
+    - [Backlog do Produto](./wiki/backlog.md)
