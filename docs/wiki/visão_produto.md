@@ -2,7 +2,6 @@
 
 <div align="center">
    <h1> 2022-1- Para cê tá mal </h1>
-   <h3>Versão [2.0]</h3>
 </div>
 
 <br/>
