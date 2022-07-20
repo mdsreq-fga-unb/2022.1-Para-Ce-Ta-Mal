@@ -173,40 +173,35 @@ PBB, User Story, User Story Mapping, BDD
 
 ### 4.1 Elicitação de Requisitos
 
-| Atividade                                 | Método         | Ferramenta              | Entrega                       |
-| ----------------------------              | ---------------| ------------------------| ----------------------------- |
-| Entrevista formal aberta                  | Reunião remota | Jitsi                   | Gravação da reunião           |
-| Brainstorming                             | Reunião remota | Discord e Figma         | Documentação da reunião       |
-| Workshop de Casos de Uso                  | Reunião remota | Jitsi                   | Documentação dos casos de uso |
-| Histórias e Cenários                      | Reunião remota | Discord e Figma         | Documentação da reunião       |
-| Classificação e organização de requisitos | Reunião remota | Discord e Figma         | Documentação da reunião       |
+| Atividade                                 | Método               | Ferramenta              | Entrega                       |
+| ----------------------------              | ---------------      | ------------------------| ----------------------------- |
+| Conversa com o cliente                    | Entrevista e reunião | Discord                 | Lista de requisitos           |
+
 
 ### 4.2 Análise de Requisitos
 
 | Atividade                  | Método         | Ferramenta      | Entrega                 |
 | ---------------------------|----------------|-----------------| ------------------------|
-| Refinamento dos requisitos | Reunião remota | Discord e Figma | Documentação da reunião |
-| Reunião com o cliente      | Reunião remota | Jitsi           | Documentação da reunião |
+| Refinamento dos requisitos | Reunião remota | Discord e Figma | Backlog                 |
 
 ### 4.3 Documentação de Requisitos
 
-| Atividade                  | Método         | Ferramenta | Entrega                                        |
-| ---------------------------|----------------|------------| -----------------------------------------------|
-| Registro dos requisitos    | Reunião remota | Discord    | Requisitos de usuário e de sistema documentado |
+| Atividade                          | Método         | Ferramenta | Entrega                                        |
+| ---------------------------        |----------------|------------| -----------------------------------------------|
+| Criação do Documento de Requisitos | Criação de um documento contendo todos os requisitos levantados na análise de requisitos, separando em funcionais e não funcionais | Github Pages | Documento de Requisitos |
 
 ### 4.4 Verificação e Validação de Requisitos
 
-| Atividade                       | Método         | Ferramenta | Entrega                                            |
-|---------------------------------|----------------|------------| ---------------------------------------------------|
-| Reunião da equipe de requisitos | Reunião remota | Discord    | Documentação de requisitos verificados e validados |
+| Atividade                                 | Método                                      | Ferramenta | Entrega                                            |
+|---------------------------------          |----------------                             |---------   | ---------------------------------------------------|
+| Verificar se os requisitos estão corretos | Validação por parte do cliente com a equipe | Discord    | Integralização de funcionalidades aprovadas        |
+
 
 ### 4.5 Gerenciamento de Requisitos
 
 | Atividade                                           | Método                                                                   | Ferramenta | Entrega              |
 | ----------------------------------------------------|--------------------------------------------------------------------------|---------   | ---------------------|
-| Checklist                                           | Checagem diária                                                          | Kanban     | Documento do Kanban  |
-| Reuniões de tomadas de decisão                      | Reunião remota                                                           | Discord    | Resumo da reunião    |
-| Verificação dos impactos causados caso haja mudança | Elucidação sobre a mudança e verificação de quais impactos isso causaria | Discord    | Documento da reunião |
+| Acompanhamento e Refinamento do backlog | Reuniões entre as equipes de REQ e MDS possivelmente para esclarecimento de duvidas e validação com o cliente | Github Pages | Documento Backlog refinado  |
 
 ## 5 Lições Aprendidas
 
@@ -226,7 +221,11 @@ PBB, User Story, User Story Mapping, BDD
 
 #### 5.1.2 Requisitos
 
-* Olhar um projeto de diferentes formas, analisar todas as visões de um projeto com toda a equipe
+* Olhar um projeto de diferentes formas, analisar todas as visões de um projeto com toda a equipe;
+
+* Definir Proposta de Engenharia de Requisitos;
+
+* Esclarecimento das atividades que serão realizadas no projeto.
 
 #### 5.1.3 MDS-Requisitos
 
@@ -237,3 +236,15 @@ PBB, User Story, User Story Mapping, BDD
 * Definição de cada função no time;
 
 * Melhor definição do limite da fronteira entre as duas equipes.
+
+### 5.2 Unidade 2
+
+#### 5.2.1 MDS
+
+#### 5.2.2 Requisitos
+
+* Esclarecimento das informações sobre o projeto, sempre perguntar e tirar duvidas sobre quaisquer informações do projeto diretamente para a equipe inicialmente.
+
+#### 5.2.3 MDS-Requisitos
+
+* Melhorar comunicação entre os membros da equipe.
