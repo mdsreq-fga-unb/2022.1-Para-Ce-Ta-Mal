@@ -5,7 +5,7 @@
 ## Link do Canvas no Miro
  - https://miro.com/app/board/uXjVOlmzVLk=/?share_link_id=2986912574
 
-<img src="https://user-images.githubusercontent.com/77307847/179873574-c4a22a64-50fe-46a0-9136-34b892b3f7e5.jpg"
+<img src="https://user-images.githubusercontent.com/77307847/180327180-d1a38632-8287-463d-b718-c6939e614659.jpg"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px; margin-bottom: 32px" /> 
 
