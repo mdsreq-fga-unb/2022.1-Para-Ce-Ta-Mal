@@ -3,7 +3,7 @@
     - [Lista de Requisitos](./wiki/lista_requisitos.md)
     - [Canvas MVP](./wiki/canvas_mvp.md)
     - [Backlog do Produto](./wiki/backlog.md)
-    - [Workshop](./wiki/workshop.md)
+    - [Workshop](./wiki/Workshop.md)
     
 - Repositório
     - [Políticas do Repositório](./politicas/policies.md)
