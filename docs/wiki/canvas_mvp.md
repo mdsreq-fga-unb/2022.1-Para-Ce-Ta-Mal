@@ -11,7 +11,7 @@
 
 
 
-## Atores:
+## Personas:
 - Daiane: Caixa de farmácia, 19 anos, ensino médio completo.
 - João: Balconista de farmácia, casado, meia-idade, ensino médio completo.
 - Adriana: Perfumista, jovem, solteira, ensino médio completo, comunicativa, simpática.
