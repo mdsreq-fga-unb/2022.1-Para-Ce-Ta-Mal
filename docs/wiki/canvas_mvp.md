@@ -18,7 +18,7 @@
 - Denise: Farmacêutica, 30 anos, casada, ensino superior completo, tem 1 filho.
 
 ## Jornadas
-- João sai de casa por volta de 06:45 de casa para abrir a farmácia. Ele faz o trajeto a pé, pois mora perto. Ao chegar na farmácia, ele faz uma limpeza rápida, liga o computador e abre o sistema. Durante o dia ele atende os clientes no balcão de medicamentos. Ele pega o remédio que está na pratileira, 'bipa' usando o leitor de código de barras e informa o preço ao cliente. Caso o clinte chore, ele pode aplicar descontos em cima do preço dos produtos. Depois que ele pega todos os produtos ele envia a venda para os caixas cobrarem. 
+- João sai de casa por volta de 06:45 de casa para abrir a farmácia. Ele faz o trajeto a pé, pois mora perto. Ao chegar na farmácia, ele faz uma limpeza rápida, liga o computador e abre o sistema. Durante o dia ele atende os clientes no balcão de medicamentos. Ele pega o remédio que está na prateleira, 'bipa' usando o leitor de código de barras e informa o preço ao cliente. Caso o cliente peça, ele pode aplicar descontos em cima do preço dos produtos. Depois que o sistema pega todos os produtos ele envia a venda para os caixas cobrarem. 
 No fim do expediente, João apenas fecha o sistema e desliga o computador.
 - Daiane acorda às 06:00 e pega o ônibus às 06:30. Ao chegar na farmácia, ela conta o dinheiro que está no caixa, ela faz login com sua senha no sistema e abre movimento informando o valor do fundo de caixa. 
 Durante o dia ela dá baixa em vendas, empacota produtos, cobra e realiza sangrias. Caso seja necessário, ela também pode editar vendas e acrescentar produtos. No entando ela só pode excluir produtos com a senha do gerente.
