@@ -240,6 +240,10 @@ PBB, User Story, User Story Mapping, BDD
 
 #### 5.2.1 MDS
 
+* Nessa unidade, nossa equipe melhorou tecnicamente nossas habilidades no Cypress ao fazer um workshop focado em testes automatizados no front-end;
+
+* Até então podemos aprender com workshops e dojos de outras equipes sobre testes unitários, ReactJs, Git.
+
 #### 5.2.2 Requisitos
 
 * Esclarecimento das informações sobre o projeto, sempre perguntar e tirar duvidas sobre quaisquer informações do projeto diretamente para a equipe inicialmente.
