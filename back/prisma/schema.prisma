@@ -13,7 +13,20 @@ datasource db {
 model User {
   id    Int     @id @default(autoincrement())
   email String  @unique
-  name  String?
+  name  String
 
   @@map("users")
+}
+
+model Drug{
+  id    Int     @id @default(autoincrement())
+  name  String
+  image String 
+  description String
+  miligram Float?
+  amount Int?
+  price Int
+  composition String?
+
+  @@map("drugs")
 }
