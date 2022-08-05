@@ -23,7 +23,7 @@ O backlog será ajustado ao decorrer do projeto, de acordo com as necessidade da
 |US05|Eu, como vendedor, desejeto alterar o preço de cada produto separademente e diretamente no orçamento.|Média|Pendente|
 |US06|Eu, como vendedor, desejo a aplicar uma porcentagem de desconto no valor total do orçamento.|Alta|Pendente|
 |US07|Eu, como vendedor, desejo alterar diretamente o valor final do orçamento.|Média|Pendente|
-|US08|Eu, como , como vendendor, desejo deletar um produto do orçamento.|Alta|Pendente|
+|US08|Eu, como vendendor, desejo deletar um produto do orçamento.|Alta|Pendente|
 |US09|Eu, como vendedor, desejo visualizar o valor total da venda, bem como quaisquer descontos aplicados.|Alta|Pendente|
 |US10|Eu, como vendedor, desejo atrelar o nome do cliente ao orçamento.|Média|Pendente|
 |US11|Eu, como vendedor, desejo finalizar o orçamento e enviá-lo para o caixa.|Alta|Pendente|
