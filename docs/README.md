@@ -1,23 +1,35 @@
-# 2022.1-Para-Ce-Ta-Mal
-Projeto realizado por equipes das disciplinas de MDS e REQ, Engenharia de Software, UnB.
+<h1 align="center">Para-Ce-Ta-Mal</h1>
 
-## Link github pages
-- https://mdsreq-fga-unb.github.io/2022.1-Para-Ce-Ta-Mal/
+<h3 align="center">2022.1</h3>
 
-## Contribuidores
+<br>
 
+<p align="center">
+<img src="https://img.shields.io/static/v1?label=STATUS&message=IN%20PROGESS&color=GREEN&style=for-the-badge"/>
+</p>
 
-| Nome                | Matrícula | GitHub                              | Disciplina |
-| ------------------- | --------- | ----------------------------------- | ---------- |
-| Carlos Daniel       | 190011408 | https://github.com/yesklin          | REQ        |
-| Luiz Gustavo        | 180023179 | https://github.com/Luiz-GL-Campos   | REQ        |
-| Vinicius Alves      | 190096373 | https://github.com/viniciusalves999 | REQ        |
-| Arthur D'Assumpcao  | 190084570 | https://github.com/ArtAssLou        | MDS        |
-| Gustavo Barbosa     | 180042041 | https://github.com/brbsg            | MDS        |
-| João Paulo Monteiro | 202045141 | https://github.com/joaombc          | MDS        |
-| Lucas Rodrigues     | 200059211 | https://github.com/lucascard        | MDS        |
+# Índice
+- [Descrição do Projeto](#descrição-do-projeto💡)
+- [Documentação](#documentação🗂️)
+- [Equipe](#equipe🚀)
 
+# Descrição do Projeto💡
 
-## Link apresentação 
+<p>
+    ElectroFarm é um projeto idealizado e desenvolvido pelos discentes das disciplinas de <b>Requisitos de Software</b> e <b>Métodos de Desenvolvimentos de Software</b> da Universidade de Brasília com o objetivo ser acessível a farmácias de pequeno e médio porte para a venda e controle de estoque de produtos farmacêuticos.
+</p>
 
-- https://www.youtube.com/watch?v=EXdARCLqR9Q
+# Documentação🗂️
+[Clique aqui](https://mdsreq-fga-unb.github.io/2022.1-Para-Ce-Ta-Mal/) para acessar a documentação do nosso projeto no Github Pages.
+
+# Equipe🚀
+
+| Nome                                                  | Matrícula   |  Disciplina |
+| ----------------------------------------------------- | ----------  | ----------  |
+| [Carlos Daniel](https://github.com/yesklin)           | 190011408   | REQ         |
+| [Luiz Gustavo](https://github.com/Luiz-GL-Campos)     | 180023179   | REQ         |
+| [Vinicius Alves](https://github.com/viniciusalves999) | 190096373   | REQ         |
+| [Arthur D'Assumpcao](https://github.com/ArtAssLou)    | 190084570   | MDS         |
+| [Gustavo Barbosa](https://github.com/brbsg)           | 180042041   | MDS         |
+| [João Paulo Monteiro](https://github.com/joaombc)     | 202045141   | MDS         |
+| [Lucas Rodrigues](https://github.com/lucascard)       | 200059211   | MDS         |
