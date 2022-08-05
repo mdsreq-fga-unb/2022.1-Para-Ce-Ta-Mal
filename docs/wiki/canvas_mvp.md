@@ -6,11 +6,9 @@
  - https://miro.com/app/board/uXjVOlmzVLk=/?share_link_id=2986912574
 
 <img src="../assets/imgs/Canvas_MVP.PNG"
-     alt="Markdown Monster icon"
      style="float: left; margin-right: 10px; margin-bottom: 32px" /> 
 
 <img src="../assets/imgs/Proposta_MVP.PNG"
-     alt="Markdown Monster icon"
      style="float: left; margin-right: 10px; margin-bottom: 32px" />
 
 ## Personas:
