@@ -5,11 +5,13 @@
 ## Link do Canvas no Miro
  - https://miro.com/app/board/uXjVOlmzVLk=/?share_link_id=2986912574
 
-<img src="../assets/imgs/Canvas_MVP.PNG"
+<!-- <img src="../assets/imgs/Canvas_MVP.PNG"
+     alt="Markdown Monster icon"
      style="float: left; margin-right: 10px; margin-bottom: 32px" /> 
 
 <img src="../assets/imgs/Proposta_MVP.PNG"
-     style="float: left; margin-right: 10px; margin-bottom: 32px" />
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px; margin-bottom: 32px" /> -->
 
 ## Personas:
 - Daiane: Caixa de farmácia, 19 anos, ensino médio completo.
