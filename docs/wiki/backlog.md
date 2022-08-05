@@ -16,31 +16,35 @@ O backlog será ajustado ao decorrer do projeto, de acordo com as necessidade da
 
 |ID|História de Usuário|Prioridade|Status|
 |--|--|--|--|
-|US01|Eu, como vendedor,  desejo realizar o orçamento dos clientes.|Alta|Pendente|
-|US02|Eu, como vendedor, desejo listar os produtos que serão vendidos na tela de vendas, com seus respectivos nomes, preços e quantidades no estoque.|Alta|Pendente|
-|US03|Eu, como vendedor,  desejo alterar a quantidade de cada produto que será vendido.|Alta|Pendente|
-|US04|Eu, como vendendor, desejo aplicar um porcentagem de desconto em cada produto separadamente.|Alta|Pendente|
-|US05|Eu, como vendedor, desejeto alterar o preço de cada produto separademente e diretamente no orçamento.|Média|Pendente|
-|US06|Eu, como vendedor, desejo a aplicar uma porcentagem de desconto no valor total do orçamento.|Alta|Pendente|
-|US07|Eu, como vendedor, desejo alterar diretamente o valor final do orçamento.|Média|Pendente|
-|US08|Eu, como vendendor, desejo deletar um produto do orçamento.|Alta|Pendente|
-|US09|Eu, como vendedor, desejo visualizar o valor total da venda, bem como quaisquer descontos aplicados.|Alta|Pendente|
-|US10|Eu, como vendedor, desejo atrelar o nome do cliente ao orçamento.|Média|Pendente|
-|US11|Eu, como vendedor, desejo finalizar o orçamento e enviá-lo para o caixa.|Alta|Pendente|
+|F1US01|Eu, como vendedor,  desejo realizar o orçamento dos clientes.|Alta|Pendente|
+|F1US02|Eu, como vendedor, desejo listar os produtos que serão vendidos na tela de vendas, com seus respectivos nomes, preços e quantidades no estoque.|Alta|Pendente|
+|F1US03|Eu, como vendedor,  desejo alterar a quantidade de cada produto que será vendido.|Alta|Pendente|
+|F1US04|Eu, como vendendor, desejo aplicar um porcentagem de desconto em cada produto separadamente.|Alta|Pendente|
+|F1US05|Eu, como vendedor, desejeto alterar o preço de cada produto separademente e diretamente no orçamento.|Média|Pendente|
+|F1US06|Eu, como vendedor, desejo a aplicar uma porcentagem de desconto no valor total do orçamento.|Alta|Pendente|
+|F1US07|Eu, como vendedor, desejo alterar diretamente o valor final do orçamento.|Média|Pendente|
+|F1US08|Eu, como vendendor, desejo deletar um produto do orçamento.|Alta|Pendente|
+|F1US09|Eu, como vendedor, desejo visualizar o valor total da venda, bem como quaisquer descontos aplicados.|Alta|Pendente|
+|F1US10|Eu, como vendedor, desejo atrelar o nome do cliente ao orçamento.|Média|Pendente|
+|F1US11|Eu, como vendedor, desejo finalizar o orçamento e enviá-lo para o caixa.|Alta|Pendente|
 
 
 ### Feature 02 - Entregas residenciais
 |ID|História de Usuário|Prioridade|Status|
 |--|--|--|--|
-|US13|Eu, como vendedor, desejo classificar uma venda como entrega residencial.|Média|Pendente|
-|US14|Eu, como vendedor, desejo atrelar o endereço de entrega a uma venda.|Média|Pendente|
-|US15|Eu, como vendedor, desejo atrelar um número de telefone a uma entrega residencial.|Média|Pendente|
-|US16|Eu, como vendedor, desejo atrelar uma descrição/ponto de referência a uma entrega residencial, para facilitar o trabalho do motoboy.|Média|Pendente|
-|US15|Eu, como caixa, desejo imprimir os dados da entrega para o motoboy.|Média|Pendente|
+|F2US01|Eu, como vendedor, desejo classificar uma venda como entrega residencial.|Média|Pendente|
+|F2US02|Eu, como vendedor, desejo atrelar o endereço de entrega a uma venda.|Média|Pendente|
+|F2US03|Eu, como vendedor, desejo atrelar um número de telefone a uma entrega residencial.|Média|Pendente|
+|F2US04|Eu, como vendedor, desejo atrelar uma descrição/ponto de referência a uma entrega residencial, para facilitar o trabalho do motoboy.|Média|Pendente|
+|F2US05|Eu, como caixa, desejo imprimir os dados da entrega para o motoboy.|Média|Pendente|
 
 ### Feature 03 - Cobrança
 
 |ID|História de Usuário|Prioridade|Status|
 |--|--|--|--|
-|US16|Eu, como caixa,  desejo visualizar uma lista de atendimento contendo todos os orçamentos enviados pelos vendedores.|Alta|Pendente|
-|US17|Eu, como caixa, desejo visualizar os detalhes de cada orçamento: produtos contidos, valor final e nome do cliente|Alta|Pendente|
+|F3US01|Eu, como caixa,  desejo visualizar uma lista de atendimento contendo todos os orçamentos enviados pelos vendedores.|Alta|Pendente|
+|F3US02|Eu, como caixa, desejo visualizar os detalhes de cada orçamento: produtos contidos, valor final e nome do cliente|Alta|Pendente|
+|F3US03|Eu, como caixa, desejo registrar o CPF do cliente na venda.|Alta|Pendente|
+|F0US04|Eu, como caixa, desejo registrar o pagamento de uma venda em uma ou mais formas (dinheiro, cartão de crédito e débito, pix).|Alta|Pendente|
+
+
