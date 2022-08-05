@@ -16,7 +16,7 @@ O backlog será ajustado ao decorrer do projeto, de acordo com as necessidade da
 
 |ID|História de Usuário|Prioridade|Status|
 |--|--|--|--|
-|US01|Eu, como vendedor, desejo ter uma tela de vendas, para realizar o orçamento da compra dos clientes.|Alta|Pendente|
+|US01|Eu, como vendedor,  desejo realizar o orçamento dos clientes.|Alta|Pendente|
 |US02|Eu, como vendedor, desejo listar os produtos que serão vendidos na tela de vendas, com seus respectivos nomes, preços e quantidades no estoque.|Alta|Pendente|
 |US03|Eu, como vendedor,  desejo alterar a quantidade de cada produto que será vendido.|Alta|Pendente|
 |US04|Eu, como vendendor, desejo aplicar um porcentagem de desconto em cada produto separadamente.|Alta|Pendente|
