@@ -28,3 +28,19 @@ O backlog será ajustado ao decorrer do projeto, de acordo com as necessidade da
 |US10|Eu, como vendedor, desejo atrelar o nome do cliente ao orçamento.|Média|Pendente|
 |US11|Eu, como vendedor, desejo finalizar o orçamento e enviá-lo para o caixa.|Alta|Pendente|
 
+
+### Feature 02 - Entregas residenciais
+|ID|História de Usuário|Prioridade|Status|
+|--|--|--|--|
+|US13|Eu, como vendedor, desejo classificar uma venda como entrega residencial.|Média|Pendente|
+|US14|Eu, como vendedor, desejo atrelar o endereço de entrega a uma venda.|Média|Pendente|
+|US15|Eu, como vendedor, desejo atrelar um número de telefone a uma entrega residencial.|Média|Pendente|
+|US16|Eu, como vendedor, desejo atrelar uma descrição/ponto de referência a uma entrega residencial, para facilitar o trabalho do motoboy.|Média|Pendente|
+|US15|Eu, como caixa, desejo imprimir os dados da entrega para o motoboy.|Média|Pendente|
+
+### Feature 03 - Cobrança
+
+|ID|História de Usuário|Prioridade|Status|
+|--|--|--|--|
+|US16|Eu, como caixa,  desejo visualizar uma lista de atendimento contendo todos os orçamentos enviados pelos vendedores.|Alta|Pendente|
+|US17|Eu, como caixa, desejo visualizar os detalhes de cada orçamento: produtos contidos, valor final e nome do cliente|Alta|Pendente|
