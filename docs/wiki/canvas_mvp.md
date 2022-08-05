@@ -5,11 +5,13 @@
 ## Link do Canvas no Miro
  - https://miro.com/app/board/uXjVOlmzVLk=/?share_link_id=2986912574
 
-<img src="https://user-images.githubusercontent.com/77307847/180330333-ae76e0ae-edff-4959-bf9d-79c82095c27d.jpg"
+<img src="../assets/imgs/Canvas_MVP.PNG"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px; margin-bottom: 32px" /> 
 
-
+<img src="../assets/imgs/Proposta_MVP.PNG"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px; margin-bottom: 32px" />
 
 ## Personas:
 - Daiane: Caixa de farmácia, 19 anos, ensino médio completo.
@@ -30,27 +32,58 @@ Assim como João e Denise, Adriana recebe representantes de marcas para fazer co
 Quando carregamentos de remédios chegam na farmácia, ela dá entrada no sistema. Ela entra na área de controle de estoque, 'bipa' o medicamento para achar-lo na lista de produtos e atualiza seu estoque na loja.  Para realizar essa ação é necessário que ela esteja logada no sistema.
 
 ## Funcionalidades
+- Consultar Estoque.
+- Cadastrar Produtos no estoque.
+- Editar dados dos Produtos do estoque.
+- Excluir produtos já existentes do estoque.
 - Registrar vendas.
 - Registrar vendas residenciais.
-- Monitorar funcionários.
+- Editar itens de uma venda.
+- Registrar uma ou mais formas de pagamento de uma venda.
+- Aplicar descontos em uma venda.
+- Finalizar Venda.
+- Login e Logout de funcionário.
 - Abertura de caixa.
+- Gerenciar fluxo de caixa(fila).
 - Fechamento de caixa.
+- Registrar corretamente as comissões dos tipos diferentes de vendedores.
 - Realizar sangrias.
-- Consultar estoque.
-- Gerenciar estoque.
-- Gerenciar vendas.
-- Gerenciar fluxo de caixa.
-- Gerenciar funcionários.
+- Consultar lista de funcionários.
+- Cadastrar novos funcionários.
+- Editar dados de um funcionário.
+- Deletar um funcionário já cadastrado.
+- Monitorar vendas e comissão de um funcionário.
 
-## Proposta de MVP
+## Proposta de MVP 1
+- Consultar Estoque.
+- Cadastrar Produtos no estoque.
+- Editar dados dos Produtos do estoque.
+- Excluir produtos já existentes do estoque.
 - Registrar vendas.
 - Registrar vendas residenciais.
-- Monitorar funcionários.
+- Editar itens de uma venda.
+- Registrar uma ou mais formas de pagamento de uma venda.
+- Aplicar descontos em uma venda.
+- Finalizar Venda.
 
+## Proposta de MVP 2
+- Login e Logout de funcionário.
+- Abertura de caixa.
+- Gerenciar fluxo de caixa(fila).
+- Fechamento de caixa.
+- Registrar corretamente as comissões dos tipos diferentes de vendedores.
+- Realizar sangrias.
+
+## Proposta de Incremento
+- Consultar lista de funcionários.
+- Cadastrar novos funcionários.
+- Editar dados de um funcionário.
+- Deletar um funcionário já cadastrado.
+- Monitorar vendas e comissão de um funcionário.
 ## Custo e conograma
-- 5 Analistas de Requisitos.
-- 5 Desenvolvedores.
-- 2 mês.
+- 3 Analistas de Requisitos.
+- 4 Desenvolvedores.
+- 1 mês.
 
 ## Resultado Esperado
 - Tempo de espera para o atendimento reduzido.
@@ -61,4 +94,3 @@ Quando carregamentos de remédios chegam na farmácia, ela dá entrada no sistem
 - Redução de 30% no tempo de atendimento.
 - Redução de 50% no tempo aprendizado do uso do sistema.
 - Pesquisa de satisfação dos usuários do sistema.
-- Levantamento do valor de venda e manutenção do sistema.
