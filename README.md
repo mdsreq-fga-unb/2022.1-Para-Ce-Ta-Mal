@@ -1,4 +1,4 @@
-<h1 align="center">Para-Ce-Ta-Mal<h2>
+<h1 align="center">Para-Ce-Ta-Mal<h1>
 
 <h2 align="center">2022.1<h2>
 
