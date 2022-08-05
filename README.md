@@ -26,7 +26,7 @@
 
 | Nome                                                  | Matrícula   |  Disciplina |
 | ----------------------------------------------------- | ----------  | ----------  |
-| [Carlos Daniel](https://github.com/yesklin "_blank")           | 190011408   | REQ         |
+| [Carlos Daniel](https://github.com/yesklin)           | 190011408   | REQ         |
 | [Luiz Gustavo](https://github.com/Luiz-GL-Campos)     | 180023179   | REQ         |
 | [Vinicius Alves](https://github.com/viniciusalves999) | 190096373   | REQ         |
 | [Arthur D'Assumpcao](https://github.com/ArtAssLou)    | 190084570   | MDS         |
