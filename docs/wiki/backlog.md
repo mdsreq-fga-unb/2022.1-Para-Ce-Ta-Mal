@@ -42,11 +42,8 @@ O backlog será ajustado ao decorrer do projeto, de acordo com as necessidade da
 |ID|História de Usuário|Prioridade|Status|
 |--|--|--|--|
 |F3US01|Eu, como caixa,  desejo visualizar uma lista de atendimento contendo todos os orçamentos enviados pelos vendedores.|Alta|Pendente|
-|F3US02|Eu, como caixa, desejo visualizar os detalhes de cada orçamento: produtos contidos, valor final e nome do cliente|Alta|Pendente|
+|F3US02|Eu, como caixa, desejo visualizar os detalhes de cada orçamento: produtos contidos, valor final e nome do cliente.|Alta|Pendente|
 |F3US03|Eu, como caixa, desejo registrar o CPF do cliente na venda.|Alta|Pendente|
-|F3US04|Eu, como caixa, desejo registrar o pagamento de uma venda em uma ou mais formas (dinheiro, cartão de crédito e débito, pix).|Alta|Pendente|
-|F3US05|Eu, como caixa, desejo emitir nota fiscal.|Alta|Pendente|
-|F3US06|Eu, como caixa, desejo imprimir nota fiscal.|Alta|Pendente|
-
-
-
+|F3US04|Eu, como caixa, desejo registrar o pagamento de uma venda em uma ou mais formas (dinheiro, cartão de crédito/débito, pix).|Alta|Pendente|
+|F3US05|Eu, como caixa, desejo emitir a nota fiscal.|Alta|Pendente|
+|F3US06|Eu, como caixa, desejo imprimir a nota fiscal.|Alta|Pendente|
