@@ -60,5 +60,7 @@ O backlog será ajustado ao decorrer do projeto, de acordo com as necessidade da
 |F4US05|Eu, como gerente, desejo registrar a quantidade em estoque de um produto.|Alta|Pendente|
 |F4US06|Eu, como gerente, desejo cadastrar o EAN de um produto.|Alta|Pendente|
 |F4US07|Eu, como gerente, desejo registrar a porcentagem máxima de desconto de um produto.|Alta|Pendente|
-|F4US08|Eu, como gerente, desejo registrar o percentual de comissão de um produto em forma de porcentagem em cima do valor do valor de lucro.|Alta|Pendente|
+|F4US08|Eu, como gerente, desejo registrar o percentual de comissão de um produto em cima do valor do valor de lucro.|Média|Pendente|
+|F4US09|Eu, como gerente, desejo registrar um valor fixo de comissão em cima de um produto.|Média|Pendente|
+
 
