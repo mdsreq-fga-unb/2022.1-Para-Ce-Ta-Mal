@@ -66,7 +66,7 @@ O backlog será ajustado ao decorrer do projeto, de acordo com as necessidade da
 |F4US11|Eu, como gerente, desejo alterar os dados de um produto.|Alta|Pendente|
 |F4US12|Eu, como gerente, desejo excluir um produto.|Alta|Pendente|
 
-### Feature 5 - Gerênciamento de Funcionários
+### Feature 5 - Gerenciamento de Funcionários
 |ID|História de Usuário|Prioridade|Status|
 |--|--|--|--|
 |F5US01|Eu, como gerente, desejo cadastrar um funcionário no sistema.|Alta|Pendente|
