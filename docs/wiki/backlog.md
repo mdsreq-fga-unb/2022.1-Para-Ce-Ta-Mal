@@ -20,7 +20,7 @@ O backlog será ajustado ao decorrer do projeto, de acordo com as necessidade da
 |F1US02|Eu, como vendedor, desejo listar os produtos que serão vendidos na tela de vendas, com seus respectivos nomes, preços e quantidades no estoque.|Alta|Pendente|
 |F1US03|Eu, como vendedor,  desejo alterar a quantidade de cada produto que será vendido.|Alta|Pendente|
 |F1US04|Eu, como vendendor, desejo aplicar um porcentagem de desconto em cada produto separadamente.|Alta|Pendente|
-|F1US05|Eu, como vendedor, desejeto alterar o preço de cada produto separademente e diretamente no orçamento.|Média|Pendente|
+|F1US05|Eu, como vendedor, desejeto alterar o preço de cada produto separademente e diretamente no orçamento.|Alta|Pendente|
 |F1US06|Eu, como vendedor, desejo a aplicar uma porcentagem de desconto no valor total do orçamento.|Alta|Pendente|
 |F1US07|Eu, como vendendor, desejo deletar um produto do orçamento.|Alta|Pendente|
 |F1US08|Eu, como vendedor, desejo visualizar o valor total da venda, bem como quaisquer descontos aplicados.|Alta|Pendente|
@@ -53,28 +53,28 @@ O backlog será ajustado ao decorrer do projeto, de acordo com as necessidade da
 ### Feature 4 - Controle de Estoque
 |ID|História de Usuário|Prioridade|Status|
 |--|--|--|--|
-|F4US01|Eu, como gerente, desejo cadastrar um produto no sistema.|Alta|Pendente|
-|F4US02|Eu, como gerente, desejo registrar o nome de um produto.|Alta|Pendente|
-|F4US03|Eu, como gerente, desejo registrar o preço de custo de um produto.|Alta|Pendente|
-|F4US04|Eu, como gerente, desejo registrar o preço de venda de um produto.|Alta|Pendente|
-|F4US05|Eu, como gerente, desejo registrar a quantidade em estoque de um produto.|Alta|Pendente|
-|F4US06|Eu, como gerente, desejo cadastrar o EAN de um produto.|Alta|Pendente|
-|F4US07|Eu, como gerente, desejo registrar a porcentagem máxima de desconto de um produto.|Alta|Pendente|
+|F4US01|Eu, como gerente, desejo cadastrar um produto no sistema.|Média|Pendente|
+|F4US02|Eu, como gerente, desejo registrar o nome de um produto.|Média|Pendente|
+|F4US03|Eu, como gerente, desejo registrar o preço de custo de um produto.|Média|Pendente|
+|F4US04|Eu, como gerente, desejo registrar o preço de venda de um produto.|Média|Pendente|
+|F4US05|Eu, como gerente, desejo registrar a quantidade em estoque de um produto.|Média|Pendente|
+|F4US06|Eu, como gerente, desejo cadastrar o EAN de um produto.|Média|Pendente|
+|F4US07|Eu, como gerente, desejo registrar a porcentagem máxima de desconto de um produto.|Média|Pendente|
 |F4US08|Eu, como gerente, desejo registrar o percentual de comissão de um produto em cima do valor do valor de lucro.|Média|Pendente|
 |F4US09|Eu, como gerente, desejo registrar um valor fixo de comissão em cima de um produto.|Média|Pendente|
 |F4US10|Eu, como gerente, desejo classificar um produto como perfumaria ou medicamento.|Média|Pendente|
-|F4US11|Eu, como gerente, desejo alterar os dados de um produto.|Alta|Pendente|
-|F4US12|Eu, como gerente, desejo excluir um produto.|Alta|Pendente|
+|F4US11|Eu, como gerente, desejo alterar os dados de um produto.|Média|Pendente|
+|F4US12|Eu, como gerente, desejo excluir um produto.|Média|Pendente|
 
 ### Feature 5 - Gerenciamento de Funcionários
 |ID|História de Usuário|Prioridade|Status|
 |--|--|--|--|
-|F5US01|Eu, como gerente, desejo cadastrar um funcionário no sistema.|Alta|Pendente|
-|F5US02|Eu, como gerente, desejo registrar o nome de um funcionário.|Alta|Pendente|
-|F5US03|Eu, como gerente, desejo registrar o código de um funcionário.|Alta|Pendente|
-|F5US04|Eu, como gerente, desejo classificar um funcionário como caixa, perfumista, balconista ou gerente.|Alta|Pendente|
-|F5US05|Eu, como gerente, desejo cadastrar a senha de acesso de um funcionário.|Alta|Pendente|
-|F5US06|Eu, como gerente, desejo excluir um funcionário do sistema.|Alta|Pendente|
-|F5US07|Eu, como funcionário, desejo alterar minha senha de acesso ao sistema.|Alta|Pendente|
-|F5US08|Eu, como funcionário, desejo realizar login no sistema.|Alta|Pendente|
-|F5US09|Eu, como funcionário, desejo realizar logout do sistema.|Alta|Pendente|
+|F5US01|Eu, como gerente, desejo cadastrar um funcionário no sistema.|Baixa|Pendente|
+|F5US02|Eu, como gerente, desejo registrar o nome de um funcionário.|Baixa|Pendente|
+|F5US03|Eu, como gerente, desejo registrar o código de um funcionário.|Baixa|Pendente|
+|F5US04|Eu, como gerente, desejo classificar um funcionário como caixa, perfumista, balconista ou gerente.|Baixa|Pendente|
+|F5US05|Eu, como gerente, desejo cadastrar a senha de acesso de um funcionário.|Baixa|Pendente|
+|F5US06|Eu, como gerente, desejo excluir um funcionário do sistema.|Baixa|Pendente|
+|F5US07|Eu, como funcionário, desejo alterar minha senha de acesso ao sistema.|Baixa|Pendente|
+|F5US08|Eu, como funcionário, desejo realizar login no sistema.|Baixa|Pendente|
+|F5US09|Eu, como funcionário, desejo realizar logout do sistema.|Baixa|Pendente|
