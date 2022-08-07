@@ -1,35 +1,80 @@
-|Epic|Feature|ID|Como um(a)|Eu Quero ser capaz de|Para que|Prioridade|Sprint|Status|
-|-|-|-|-|-|-|-|-|-|
-|Funcionário|Venda|#1|Funcionário|alterar a quantidade de um produto|Eu possa ter um controle melhor da venda para o cliente da farmácia|Alta| | |
-| | |#2|Funcionário|aplicar desconto na compra do cliente|Eu possa escolher o desconto que darei sobre o total da venda ou sobre qualquer produto individualmente|Alta| | |
-| | |#3|Funcionário|registrar o nome do cliente no ato da venda|Eu possa registrar o nome do cliente na nota fiscal|Média| | |
-| | |#4|Funcionário|registrar um unico pagamento em diferentes formatos|Os clientes possam pagar compras utilizando mais de uma forma de pagamento ao mesmo tempo. Ex:dinheiro e cartão|Alta| | |
-| | |#5|Funcionário|registrar o cpf dos clientes nas vedas|O cpf possa ficar registrado na nota fiscal|Média| | |
-| | |#6|Funcionário|emitir nota fiscal da compra ao cliente|o clinte possa consultar os preços dos produtos e solicitar devolução se necessário|Alta| | |
-| | |#7|Funcionário|visualizar o preço total a ser pago na compra, calculado com possiveis descontos|A venda possa ser mais rápida|Alta| | |
-| | |#8|Funcionário|mandar as vendas para os computadores com caixa aberto|O cliente possa realizar o pagamento no caixa da loja|Média| | |
-| | |#9|Dono da Farmácia|saber a comissão cálculada de cada vendedor de forma individual, caso tenha vendedor de classes distintas em uma mesma venda|Eu possa pagar corretamente cada funcionário pela comissão devida|Alta| | |
-| | |#10|Funcionário|abrir e fechar uma venda sempre que necessário|Possa ser registrado quando a venda foi realizada e por qual funcionário foi feita|Alta| | |
-| | |#11|Funcionário|editar os dados de vendas caso seja necessário|Eu possa ter o controle dos itens da venda caso o cliente deseje adicionar ou retirar itens|Alta| | |
-| | |#12|Funcionário|excluir/finalizar uma venda que tenha sido iniciada, registrando justificativa e senha|Eu possa finalizar a venda caso o cliente desista da compra|Alta| | |
-| | |#13|Funcionário|ter acesso a uma lista de atendimento das vendas que estão em andamento iniciada por outros funcionários|Eu possa visualizar essa lista e ter controle da quantidade de vendas sendo realizadas|Média| | |
-| |Venda residencial|#14|Funcionário|atrelar endereço, telefone e nome do cliente à vendas do tipo entrega residencial|A pessoa que for fazer a entrega tenha todas as informações corretas para realizar a entrega|Média| | |
-| | |#15|Funcionário|imprimir os dados da entrega ou colocá-los na nota fiscal|O cliente consiga visualizar as suas informações corretas na nota fiscal|Média| | |
-| | |#16|Funcionário|classificar a venda como entrega residencial|A saída de produtos possa ser feita de forma remota permitindo o pagamento do cliente a distância com ele recebendo a encomenda em casa|Alta| | |
-| |Controle de trabalho|#17|Funcionário|poder informar meu horário de entrada e saída do trabalho pelo sistema|Eu receba o salário corretamente baseado no quantidade de horas trabalhadas|Alta| | |
-| | |#18|Funcionário|consultar meu histórico de vendas e comissões realizadas no mês|eu possa visualizar meu desempenho como vendedor e ter um vislumbre do meu salário|Média| | |
-|Gerencia |Gestão de funcionários|#19|Gerente|registrar novos funcionários|Eu possa cadastrar os novos funcionários contratados pela farmácia|Alta| | |
-| | |#20|Gerente|visualizar os dados dos funcionários registrados na farmácia|Eu possa monitorar os funcionarios presentes e ainda contratados na loja|Alta| | |
-| | |#21|Gerente|alterar os dados dos funcionários existentes|Eu possa manter esses dados atualizados e de comum acordo com a atualidade|Alta| | |
-| | |#22|Gerente|excluir um funcionário do sistema|Os funcionários que não trabalham mais na loja não tenham mais acesso ao sistema|Alta| | |
-| |Gestão de vendas|#23|Dono da Farmácia|ver quais vendedores foram responsaveis por cada venda|Eu possa verificar quais funcionários receberão comissões|Alta| | |
-| | |#24|Dono da Farmácia|ver se uma mesma venda foi realizada por mais de um vendedor|Eu possa verificar a porcentagem correta de comissões para cada funcionário em relação a venda|Alta| | |
-| | |#25|Gerente|visualizar histórioco de vendas realizadas|Eu possa conferir quais produtos, quais quantidades, quem foi o cliente, quem foi o vendedor, forma de pagamento e a comissão|Média| | |
-| | |#26|Gerente|visualizar um relatório de vendas, de acordo com tipo de produto e data|possa ter um controle da quantidade de saída e de quais produtos comprar mais para reabastecer o estoque|Alta| | |
-| |Gestão de caixa|#27|Gerente|realizar a consulta dos valores recebidos em direito|Eu possa verificar o valor em caixa e realizar sangrias se necessário|Alta| | |
-| | |#28|Funcionário|realizar retiradas de dinheiro do caixa(são descontados do salário), para poder almoçar ou afins|Eu possa adiantar um pouco do salário do mês|Alta| | |
-|Controle de Estoque|Consultar estoque|#29|Funcionário|visualizar de produtos no estoque|Eu possa minitorar quais e quantos produtos estão no estoque da loja|Alta| | |
-| | |#30|Gerente|saber se o estoque está sendo atualizado periodicamente com a saída de produtos em cada venda|Eu possa ter o controle do estoque|Alta| | |
-| |Gestão de estoque|#31|Gerente|registrar novos produtos|Eu possa armazenar os dados dos produtos novos com os demais|Alta| | |
-| | |#32|Gerente|alterar os dados de produtos existentes|Eu possa manter atualizados os dados dos produtos já existentes|Alta| | |
-| | |#33|Gerente|remover um produto que não é mais necessário manter no estoque|Eu possa remover os produtos que não serão mais vendidos na loja|Alta| | |
+# Backlog do Produto
+
+## Histórias de usuário
+O escopo do projeto foi delimitado a partir da necessidade de criar um novo sistema de vendas para uma rede de farmácias. O objetivo é entregar um produto profissional com um custo abaixo do mercado, focado em redes menores que buscam qualidade com investimento menor.
+
+As funcionalidades foram definidas a partir dos problemas e necessidades reais apontadas pelos funcionários da farmácia, bem como da propietária da rede.
+
+Os Épicos foram divididos em Features. Esses contêm as Histórias de Usuário.
+
+O backlog será ajustado ao decorrer do projeto, de acordo com as necessidade da equipe e cliente.
+
+
+## Épico 1 - Vendas
+
+### Feature 01 - Orçamento
+
+|ID|História de Usuário|Prioridade|Status|
+|--|--|--|--|
+|F1US01|Eu, como vendedor,  desejo realizar o orçamento dos clientes.|Alta|Pendente|
+|F1US02|Eu, como vendedor, desejo listar os produtos que serão vendidos na tela de vendas, com seus respectivos nomes, preços e quantidades no estoque.|Alta|Pendente|
+|F1US03|Eu, como vendedor,  desejo alterar a quantidade de cada produto que será vendido.|Alta|Pendente|
+|F1US04|Eu, como vendendor, desejo aplicar um porcentagem de desconto em cada produto separadamente.|Alta|Pendente|
+|F1US05|Eu, como vendedor, desejeto alterar o preço de cada produto separademente e diretamente no orçamento.|Alta|Pendente|
+|F1US06|Eu, como vendedor, desejo a aplicar uma porcentagem de desconto no valor total do orçamento.|Alta|Pendente|
+|F1US07|Eu, como vendendor, desejo deletar um produto do orçamento.|Alta|Pendente|
+|F1US08|Eu, como vendedor, desejo visualizar o valor total da venda, bem como quaisquer descontos aplicados.|Alta|Pendente|
+|F1US09|Eu, como vendedor, desejo atrelar o nome do cliente ao orçamento.|Média|Pendente|
+|F1US10|Eu, como vendedor, desejo finalizar o orçamento e enviá-lo para o caixa.|Alta|Pendente|
+
+
+### Feature 02 - Entregas residenciais
+|ID|História de Usuário|Prioridade|Status|
+|--|--|--|--|
+|F2US01|Eu, como vendedor, desejo classificar uma venda como entrega residencial.|Média|Pendente|
+|F2US02|Eu, como vendedor, desejo atrelar o endereço de entrega a uma venda.|Média|Pendente|
+|F2US03|Eu, como vendedor, desejo atrelar um número de telefone a uma entrega residencial.|Média|Pendente|
+|F2US04|Eu, como vendedor, desejo atrelar uma descrição/ponto de referência a uma entrega residencial, para facilitar o trabalho do motoboy.|Média|Pendente|
+|F2US05|Eu, como caixa, desejo imprimir os dados da entrega para o motoboy.|Média|Pendente|
+
+### Feature 03 - Cobrança
+
+|ID|História de Usuário|Prioridade|Status|
+|--|--|--|--|
+|F3US01|Eu, como caixa,  desejo visualizar uma lista de atendimento contendo todos os orçamentos enviados pelos vendedores.|Alta|Pendente|
+|F3US02|Eu, como caixa, desejo visualizar os detalhes de cada orçamento: produtos contidos, valor final e nome do cliente.|Alta|Pendente|
+|F3US03|Eu, como caixa, desejo registrar o CPF do cliente na venda.|Alta|Pendente|
+|F3US04|Eu, como caixa, desejo registrar o pagamento de uma venda em uma ou mais formas (dinheiro, cartão de crédito/débito, pix).|Alta|Pendente|
+|F3US05|Eu, como caixa, desejo emitir a nota fiscal.|Alta|Pendente|
+|F3US06|Eu, como caixa, desejo imprimir a nota fiscal.|Alta|Pendente|
+
+## Épico 2 - Gerência
+
+### Feature 4 - Controle de Estoque
+|ID|História de Usuário|Prioridade|Status|
+|--|--|--|--|
+|F4US01|Eu, como gerente, desejo cadastrar um produto no sistema.|Média|Pendente|
+|F4US02|Eu, como gerente, desejo registrar o nome de um produto.|Média|Pendente|
+|F4US03|Eu, como gerente, desejo registrar o preço de custo de um produto.|Média|Pendente|
+|F4US04|Eu, como gerente, desejo registrar o preço de venda de um produto.|Média|Pendente|
+|F4US05|Eu, como gerente, desejo registrar a quantidade em estoque de um produto.|Média|Pendente|
+|F4US06|Eu, como gerente, desejo cadastrar o EAN de um produto.|Média|Pendente|
+|F4US07|Eu, como gerente, desejo registrar a porcentagem máxima de desconto de um produto.|Média|Pendente|
+|F4US08|Eu, como gerente, desejo registrar o percentual de comissão de um produto em cima do valor do valor de lucro.|Média|Pendente|
+|F4US09|Eu, como gerente, desejo registrar um valor fixo de comissão em cima de um produto.|Média|Pendente|
+|F4US10|Eu, como gerente, desejo classificar um produto como perfumaria ou medicamento.|Média|Pendente|
+|F4US11|Eu, como gerente, desejo alterar os dados de um produto.|Média|Pendente|
+|F4US12|Eu, como gerente, desejo excluir um produto.|Média|Pendente|
+
+### Feature 5 - Gerenciamento de Funcionários
+|ID|História de Usuário|Prioridade|Status|
+|--|--|--|--|
+|F5US01|Eu, como gerente, desejo cadastrar um funcionário no sistema.|Baixa|Pendente|
+|F5US02|Eu, como gerente, desejo registrar o nome de um funcionário.|Baixa|Pendente|
+|F5US03|Eu, como gerente, desejo registrar o código de um funcionário.|Baixa|Pendente|
+|F5US04|Eu, como gerente, desejo classificar um funcionário como caixa, perfumista, balconista ou gerente.|Baixa|Pendente|
+|F5US05|Eu, como gerente, desejo cadastrar a senha de acesso de um funcionário.|Baixa|Pendente|
+|F5US06|Eu, como gerente, desejo excluir um funcionário do sistema.|Baixa|Pendente|
+|F5US07|Eu, como funcionário, desejo alterar minha senha de acesso ao sistema.|Baixa|Pendente|
+|F5US08|Eu, como funcionário, desejo realizar login no sistema.|Baixa|Pendente|
+|F5US09|Eu, como funcionário, desejo realizar logout do sistema.|Baixa|Pendente|
