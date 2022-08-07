@@ -62,6 +62,6 @@ O backlog será ajustado ao decorrer do projeto, de acordo com as necessidade da
 |F4US07|Eu, como gerente, desejo registrar a porcentagem máxima de desconto de um produto.|Alta|Pendente|
 |F4US08|Eu, como gerente, desejo registrar o percentual de comissão de um produto em cima do valor do valor de lucro.|Média|Pendente|
 |F4US09|Eu, como gerente, desejo registrar um valor fixo de comissão em cima de um produto.|Média|Pendente|
-|F4US09|Eu, como gerente, gostaria de classificar um produto como perfumaria ou medicamento.|Média|Pendente|
+|F4US10|Eu, como gerente, gostaria de classificar um produto como perfumaria ou medicamento.|Média|Pendente|
 
 
