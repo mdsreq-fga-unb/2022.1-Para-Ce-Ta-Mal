@@ -62,6 +62,19 @@ O backlog será ajustado ao decorrer do projeto, de acordo com as necessidade da
 |F4US07|Eu, como gerente, desejo registrar a porcentagem máxima de desconto de um produto.|Alta|Pendente|
 |F4US08|Eu, como gerente, desejo registrar o percentual de comissão de um produto em cima do valor do valor de lucro.|Média|Pendente|
 |F4US09|Eu, como gerente, desejo registrar um valor fixo de comissão em cima de um produto.|Média|Pendente|
-|F4US10|Eu, como gerente, gostaria de classificar um produto como perfumaria ou medicamento.|Média|Pendente|
+|F4US10|Eu, como gerente, desejo classificar um produto como perfumaria ou medicamento.|Média|Pendente|
+|F4US11|Eu, como gerente, desejo alterar os dados de um produto.|Alta|Pendente|
+|F4US12|Eu, como gerente, desejo excluir um produto.|Alta|Pendente|
 
-
+### Feature 5 - Gerênciamento de Funcionários
+|ID|História de Usuário|Prioridade|Status|
+|--|--|--|--|
+|F5US01|Eu, como gerente, desejo cadastrar um funcionário no sistema.|Alta|Pendente|
+|F5US02|Eu, como gerente, desejo registrar o nome de um funcionário.|Alta|Pendente|
+|F5US03|Eu, como gerente, desejo registrar o código de um funcionário.|Alta|Pendente|
+|F5US04|Eu, como gerente, desejo classificar um funcionário como caixa, perfumista, balconista ou gerente.|Alta|Pendente|
+|F5US05|Eu, como gerente, desejo cadastrar a senha de acesso de um funcionário.|Alta|Pendente|
+|F5US06|Eu, como gerente, desejo excluir um funcionário do sistema.|Alta|Pendente|
+|F5US07|Eu, como funcionário, desejo alterar minha senha de acesso ao sistema.|Alta|Pendente|
+|F5US08|Eu, como funcionário, desejo realizar login no sistema.|Alta|Pendente|
+|F5US09|Eu, como funcionário, desejo realizar logout do sistema.|Alta|Pendente|
