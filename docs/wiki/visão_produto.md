@@ -170,7 +170,81 @@ PBB, User Story, User Story Mapping, BDD
 
 <p style="text-ident: 20px; text-align: justify" > Será uma abordagem ágil porém adaptada para as necessidades e disponibilidade da equipe. Essa abordagem será voltada mais para o Scrum, definimos os meios de reunião e comunicação fácil, com sprint reviews semanais, podendo assim, ser bem flexível para todos. </p>
 
+<br>
+
 ![Processo de ER](https://user-images.githubusercontent.com/77307847/184058196-3f5d513b-0ba3-4dec-87cc-cf42ed3f771c.png)
+
+<br>
+
+## Planejamento do ciclo
+### Atividades:
+- Verificar HUs definidas como preparadas 
+- Priorizar o Backlog do Ciclo
+- Acordar requisitos com equipe técnica e cliente
+
+### Métodos e Técnicas:
+- PBB
+- User Story Mapping
+- Prototipação
+
+## Execução do Ciclo
+### Atividades:
+- Manter comunicação constante do com dono do negócio
+- Refinar o Backlog do Ciclo
+- Manter atualizado o Backlog do Ciclo
+- Estabelecer e critérios de aceitação
+
+### Métodos e Técnicas:
+- User Story
+- BDD
+- Critérios de Aceitação
+
+## Avaliação contínua da execução
+### Atividades:
+- Avaliar a execução dos requisitos do Backlog do Ciclo
+- Validar e refinar os requisitos do Backlog do Ciclo
+	
+### Métodos e Técnicas:
+- Reuniões de acompanhamento
+- Acompanhamento do quadro Kanban
+- Feedback constante
+- Inspeção de Requisitos
+
+## Realização das entregas
+### Atividades:
+- Comunicar o encerramento da execução Backlog do Ciclo
+- Garantir a realização dos requisitos (RF e RNFs) e critérios de aceitação para a validação das entregas
+- Garantir o conceito de pronto
+### Métodos e Técnicas:
+- Comunicação constante
+- Inspeção do desenvolvimento
+- PBB
+
+## Avaliação dos resultados
+### Atividades:
+- Realizar validação do produto com base nos requisitos acordados no planejamento do ciclo
+	
+### Métodos e Técnicas:
+- User Story
+- Critérios de aceitação
+- BDD
+- Testes de cliente
+
+## Liberação das entregas
+
+### Atividades:
+- Atualizar o backlog do produto
+- Atualizar o alinhamento entre o backlog do produto, objetivo de negócio e resultados esperados.
+- Garantir os RNFs para a liberação das entregas
+- Verificar HUs definidas como preparadas 
+- Acordar requisitos com equipe técnica e cliente
+
+### Métodos e Técnicas:
+- Refinamento progressivo do Backlog de Requisitos
+- Gerenciamento de rastreabilidade
+- PBB
+
+<br><br>
 
 ### 4.1 Elicitação de Requisitos
 
