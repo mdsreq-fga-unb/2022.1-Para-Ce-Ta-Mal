@@ -50,7 +50,7 @@ O backlog será ajustado ao decorrer do projeto, de acordo com as necessidade da
 
 ## Épico 2 - Gerência
 
-### Feature 4 - Controle de Estoque
+### Feature 04 - Controle de Estoque
 |ID|História de Usuário|Prioridade|Status|
 |--|--|--|--|
 |F4US01|Eu, como gerente, desejo cadastrar um produto no sistema.|Média|Pendente|
@@ -66,7 +66,7 @@ O backlog será ajustado ao decorrer do projeto, de acordo com as necessidade da
 |F4US11|Eu, como gerente, desejo alterar os dados de um produto.|Média|Pendente|
 |F4US12|Eu, como gerente, desejo excluir um produto.|Média|Pendente|
 
-### Feature 5 - Gerenciamento de Funcionários
+### Feature 05 - Gerenciamento de Funcionários
 |ID|História de Usuário|Prioridade|Status|
 |--|--|--|--|
 |F5US01|Eu, como gerente, desejo cadastrar um funcionário no sistema.|Baixa|Pendente|
@@ -78,3 +78,14 @@ O backlog será ajustado ao decorrer do projeto, de acordo com as necessidade da
 |F5US07|Eu, como funcionário, desejo alterar minha senha de acesso ao sistema.|Baixa|Pendente|
 |F5US08|Eu, como funcionário, desejo realizar login no sistema.|Baixa|Pendente|
 |F5US09|Eu, como funcionário, desejo realizar logout do sistema.|Baixa|Pendente|
+
+## Proposta de MVP 1
+- Feature 04 - Controle de Estoque
+- Feature 01 - Orçamento
+
+## Proposta de MVP 2
+- Feature 03 - Cobrança
+- Feature 02 - Entregas residenciais
+
+## Incrementos
+- Feature 05 - Gerenciamento de Funcionários
