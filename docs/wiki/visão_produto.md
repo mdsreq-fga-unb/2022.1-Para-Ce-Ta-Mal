@@ -170,6 +170,8 @@ PBB, User Story, User Story Mapping, BDD
 
 <p style="text-ident: 20px; text-align: justify" > Será uma abordagem ágil porém adaptada para as necessidades e disponibilidade da equipe. Essa abordagem será voltada mais para o Scrum, definimos os meios de reunião e comunicação fácil, com sprint reviews semanais, podendo assim, ser bem flexível para todos. </p>
 
+![Processo de ER](https://user-images.githubusercontent.com/77307847/184058196-3f5d513b-0ba3-4dec-87cc-cf42ed3f771c.png)
+
 ### 4.1 Elicitação de Requisitos
 
 | Atividade                                 | Método               | Ferramenta              | Entrega                       |
