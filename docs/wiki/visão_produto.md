@@ -98,6 +98,7 @@ As tecnologias foram determinadas de acordo com a necessidade das atividades a s
 | Sprint 5 | Organização dos requisitos para inicio do desenvolvimento do produto | 22/07/2022 | 28/07/2022 |
 | Sprint 6 | Desenvolvimento do MVP1 | 29/07/2022 | 04/08/2022 |
 | Sprint 7 | Desenvolvimento do MVP1 | 05/08/2022 | 11/08/2022 |
+| Sprint 8 | Desenvolvimento do MVP1 | 12/08/2022 | 16/08/2022 |
 
 Fundamentos, conceitos e exercícios.
 PBB, User Story, User Story Mapping, BDD
