@@ -22,11 +22,15 @@ model Drug{
   id    Int     @id @default(autoincrement())
   name  String
   image String 
-  description String
-  miligram Float?
-  amount Int?
-  price Int
-  composition String?
+  ean String
+  amount Int
+  salePrice Int
+  purchasePrice Int
+  category String
+  maxDiscountPercentage  Float? @default(0)
+  percentageOfCommission Float? @default(0)
+  fixedCommissionValue Int? @default(0)
+  description String?
 
   @@map("drugs")
 }
