@@ -38,8 +38,8 @@ export default function Layout({ children }) {
               </a>
             </li>
             <li>
-              <a href="#">
-                <FaBoxOpen className="icon-sidebar" />
+              <a onClick={() => navigate("/estoque")}>
+                <FaBoxOpen  className="icon-sidebar" />
               </a>
             </li>
             <li>

@@ -6,9 +6,12 @@ import { FaUserTie } from "react-icons/fa";
 import { FaChartLine } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { GoGear } from "react-icons/go";
+import { useNavigate } from "react-router-dom";
 import "./Estoque.css";
 
 function Estoque() {
+
+  const navigate = useNavigate();
   return (
     <>
       <div className="content">
@@ -59,24 +62,8 @@ function Estoque() {
               <FaSearch className="icon-search" />
             </div>
 
-            <button className="add-product"> + Adicionar Produto</button>
-            <table>
-              <tr>
-                <th>Company</th>
-                <th>Contact</th>
-                <th>Country</th>
-              </tr>
-              <tr>
-                <td>Alfreds Futterkiste</td>
-                <td>Maria Anders</td>
-                <td>Germany</td>
-              </tr>
-              <tr>
-                <td>Centro comercial Moctezuma</td>
-                <td>Francisco Chang</td>
-                <td>Mexico</td>
-              </tr>
-            </table>
+            <button onClick={()=> navigate('/cadastrar-produto')} className="add-product"> + Adicionar Produto</button>
+            
           </div>
         </main>
       </div>

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import { FaArrowAltCircleLeft } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 import "./CadastrarProduto.css";
 
 export default function CadastrarProduto() {

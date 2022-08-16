@@ -20,7 +20,10 @@ root.render(
 
           <Route path="/estoque" element={<Estoque />} />
 
+          <Route path="/cadastrar-produto" element={<CadastrarProduto />} />
+
           <Route path="/editar-produto" element={<EditarProduto />} />
+
         </Routes>
       </Layout>
     </BrowserRouter>
