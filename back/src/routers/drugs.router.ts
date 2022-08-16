@@ -1,5 +1,5 @@
 import { Router } from "express";
-import drugsController from "../controllers/drugs.controller.js";
+import * as drugsController from "../controllers/drugs.controller.js";
 import { validateSchema } from "../middlewares/validate-schema.middleware.js";
 import { drugSchema } from "../schemas/drugs.schema.js";
 
@@ -13,6 +13,8 @@ drugRouter.post(
   drugsController.createDrug
 );
 
-drugRouter.delete("/drugs/:id", drugsController.deleteDrug);
+drugRouter.put("/drugs/:id", drugsController.updateDrugById);
+
+drugRouter.delete("/drugs/:id", drugsController.deleteDrugById);
 
 export default drugRouter;
