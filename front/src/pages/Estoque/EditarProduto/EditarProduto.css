@@ -41,7 +41,7 @@
   margin-top: 40px;
 }
 
-.cadastrar-produto-button{
+.salvar-produto-button{
   margin-right: 20px;
   background-color: #14c38e;
   color: white;
@@ -51,10 +51,10 @@
   border: none;
 }
 
-.cancelar-button{
+.excluir-button{
   width: auto;
   height: auto;
-  background-color: black;
+  background-color: rgb(243, 0, 0);
   color: white;
   padding: 12px 20px;
   border: none;

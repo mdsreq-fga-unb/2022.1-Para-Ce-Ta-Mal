@@ -3,17 +3,22 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import Estoque from "./pages/Estoque/Estoque.js";
+import CadastrarProduto from "./pages/Estoque/CadastrarProduto/CadastrarProduto.js";
+import EditarProduto from "./pages/Estoque/EditarProduto/EditarProduto.js";
+
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<App />} />
         <Route path="/estoque" element={<Estoque />} />
-      </Routes>
+      </Routes> */}
+
+      <EditarProduto />
     </BrowserRouter>
   </React.StrictMode>
 );

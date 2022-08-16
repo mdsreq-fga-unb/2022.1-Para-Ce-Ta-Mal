@@ -6,7 +6,7 @@ import { FaUserTie } from "react-icons/fa";
 import { FaChartLine } from "react-icons/fa";
 import { FaArrowAltCircleLeft } from "react-icons/fa";
 import { GoGear } from "react-icons/go";
-import "./CadastrarProduto.css";
+import "./EditarProduto.css";
 
 function Estoque() {
     return (
@@ -55,7 +55,7 @@ function Estoque() {
                     <div className="electron-back">
                         <div href="#" className="titulo-page">
                             <FaArrowAltCircleLeft className="icon-back" />
-                            CADASTRAR PRODUTO
+                            EDITAR PRODUTO
                         </div>
 
                         <div className="container-inputs">
@@ -113,11 +113,11 @@ function Estoque() {
                         </div>
 
                         <div className="outline-button">
-                            <button className="cadastrar-produto-button">
-                                Cadastrar Produto
+                            <button className="salvar-produto-button">
+                                Salvar
                             </button>
-                            <button className="cancelar-button">
-                                Cancelar
+                            <button className="excluir-button">
+                                Excluir
                             </button>
                         </div>
                     </div>
