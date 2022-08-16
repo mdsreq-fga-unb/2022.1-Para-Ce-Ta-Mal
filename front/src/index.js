@@ -8,17 +8,21 @@ import EditarProduto from "./pages/Estoque/EditarProduto/EditarProduto.js";
 
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      {/* <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/estoque" element={<Estoque />} />
-      </Routes> */}
+      <Layout>
+        <Routes>
+          <Route path="/" element={<App />} />
 
-      <EditarProduto />
+          <Route path="/estoque" element={<Estoque />} />
+
+          <Route path="/editar-produto" element={<EditarProduto />} />
+        </Routes>
+      </Layout>
     </BrowserRouter>
   </React.StrictMode>
 );

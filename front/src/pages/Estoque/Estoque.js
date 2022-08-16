@@ -12,46 +12,47 @@ function Estoque() {
   return (
     <>
       <div className="content">
-        <div className="topnav">
-          <a className="active" href="#home">
-            ElectroPharm
-          </a>
-        </div>
         <main>
           <div className="sidebar">
             <ul>
               <li>
-                <a href="#">
+                <a>
                   <FaShoppingCart className="icon-sidebar" />
                 </a>
               </li>
+
               <li>
-                <a href="#">
+                <a>
                   <FaCashRegister className="icon-sidebar" />
                 </a>
               </li>
+
               <li>
-                <a href="#">
+                <a>
                   <FaBoxOpen className="icon-sidebar" />
                 </a>
               </li>
+
               <li>
-                <a href="#">
+                <a>
                   <FaUserTie className="icon-sidebar" />
                 </a>
               </li>
+
               <li>
-                <a href="#">
+                <a>
                   <FaChartLine className="icon-sidebar" />
                 </a>
               </li>
+
               <li>
-                <a href="#">
+                <a>
                   <GoGear className="icon-sidebar" />
                 </a>
               </li>
             </ul>
           </div>
+
           <div className="electron-back">
             <div className="search_box">
               <input type="text" placeholder="Pesquise aqui"></input>
@@ -66,7 +67,7 @@ function Estoque() {
                 <th>Country</th>
               </tr>
               <tr>
-                <td>Alfreds Futterkiste</td>  
+                <td>Alfreds Futterkiste</td>
                 <td>Maria Anders</td>
                 <td>Germany</td>
               </tr>
@@ -76,7 +77,6 @@ function Estoque() {
                 <td>Mexico</td>
               </tr>
             </table>
-
           </div>
         </main>
       </div>
