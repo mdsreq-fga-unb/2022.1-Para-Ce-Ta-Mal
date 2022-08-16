@@ -7,7 +7,8 @@ import "./CadastrarProduto.css";
 export default function CadastrarProduto() {
   const [body, setBody] = useState({});
   function handleSubmit(event) {
-    console.log(event);
+    event.preventDefault();
+    console.log(event.target);
   }
   return (
     <>
@@ -27,19 +28,26 @@ export default function CadastrarProduto() {
                   className="input-border"
                   type="text"
                   placeholder="Nome do Produto"
+                  name="productName"
                 />
               </div>
 
               <div className="ean-input">
                 <label className="label-name">EAN: </label>
                 <br />
-                <input className="input-border" type="text" placeholder="Ean" />
+                <input
+                  name="EAN"
+                  className="input-border"
+                  type="text"
+                  placeholder="Ean"
+                />
               </div>
 
               <div className="estoque-input">
                 <label className="label-name">Estoque:</label>
                 <br />
                 <input
+                  name="Estoque"
                   className="input-border"
                   type="text"
                   placeholder="Estoque"
@@ -50,6 +58,7 @@ export default function CadastrarProduto() {
                 <label className="label-name">Preço de custo:</label>
                 <br />
                 <input
+                  name="PreçoDeCusto"
                   className="input-border"
                   type="money"
                   placeholder="Preço de custo"
@@ -60,6 +69,7 @@ export default function CadastrarProduto() {
                 <label className="label-name">Preço de venda:</label>
                 <br />
                 <input
+                  name="PreçoDeVenda"
                   className="input-border"
                   type="money"
                   placeholder="Preço de venda"
@@ -86,6 +96,7 @@ export default function CadastrarProduto() {
                 <label className="label-name">Valor Máximo Desconto:</label>
                 <br />
                 <input
+                  name="ValorMaximoDesconto"
                   className="input-border"
                   type="money"
                   placeholder="Valor Máximo Desconto"
@@ -96,6 +107,7 @@ export default function CadastrarProduto() {
                 <label className="label-name">Percentual de Comissão:</label>
                 <br />
                 <input
+                  name="PercentualDeComissão"
                   className="input-border"
                   type="text"
                   placeholder="Percentual de Comissão"
@@ -106,6 +118,7 @@ export default function CadastrarProduto() {
                 <label className="label-name">Valor Fixo de Comissão:</label>
                 <br />
                 <input
+                  name="ValorFixoDeComissão"
                   className="input-border"
                   type="text"
                   placeholder="Valor Fixo de Comissão"

@@ -13,7 +13,6 @@ export default function Layout({ children }) {
   const navigate = useNavigate();
   const location = useLocation();
 
-  console.log(location.pathname);
   return (
     <Container>
       <header>
@@ -39,7 +38,7 @@ export default function Layout({ children }) {
             </li>
             <li>
               <a onClick={() => navigate("/estoque")}>
-                <FaBoxOpen  className="icon-sidebar" />
+                <FaBoxOpen className="icon-sidebar" />
               </a>
             </li>
             <li>
