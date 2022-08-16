@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import Estoque from './pages/Estoque/Estoque.js';
 import CadastrarProduto from './pages/Estoque/CadastrarProduto/CadastrarProduto.js';
+import EditarProduto from './pages/Estoque/EditarProduto/EditarProduto.js';
+
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
@@ -12,7 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <CadastrarProduto />
+      <EditarProduto />
     </BrowserRouter>
 
 
