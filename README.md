@@ -32,4 +32,4 @@
 | [Arthur D'Assumpcao](https://github.com/ArtAssLou)    | 190084570   | MDS         |
 | [Gustavo Barbosa](https://github.com/brbsg)           | 180042041   | MDS         |
 | [João Paulo Monteiro](https://github.com/joaombc)     | 202045141   | MDS         |
-| [Lucas Rodrigues](https://github.com/lucascard)       | 200059211   | MDS         |
+| [Lucas Cardoso](https://github.com/lucascard)       | 200059211   | MDS         |
