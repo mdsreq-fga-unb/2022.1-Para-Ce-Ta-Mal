@@ -103,7 +103,7 @@ export default function CadastrarProduto() {
                 />
               </div>
 
-              <div className="nome-produto">
+              <div className="percentual-comissao-input">
                 <label className="label-name">Percentual de Comissão:</label>
                 <br />
                 <input
@@ -114,7 +114,7 @@ export default function CadastrarProduto() {
                 />
               </div>
 
-              <div className="nome-produto">
+              <div className="valor-fixo-input">
                 <label className="label-name">Valor Fixo de Comissão:</label>
                 <br />
                 <input
@@ -125,12 +125,26 @@ export default function CadastrarProduto() {
                 />
               </div>
 
+              <div className="valor-fixo-input">
+                <label className="label-name">Imagem </label>
+                <br />
+                <input
+                  name="image"
+                  className="input-border"
+                  type="text"
+                  placeholder="Imagem"
+                />
+              </div>
+
               <div className="outline-button">
                 <button className="cadastrar-produto-button" type="submit">
                   Cadastrar Produto
                 </button>
-                <button className="cancelar-button">Cancelar</button>
+                <button 
+                className="cancelar-button">Cancelar
+                </button>
               </div>
+              
             </form>
           </div>
         </main>
