@@ -10,6 +10,7 @@ export default function CadastrarProduto() {
     event.preventDefault();
     console.log(event.target);
   }
+  const navigate = useNavigate();
   return (
     <>
       <div className="content">
@@ -140,7 +141,7 @@ export default function CadastrarProduto() {
                 <button className="cadastrar-produto-button" type="submit">
                   Cadastrar Produto
                 </button>
-                <button 
+                <button onClick={()=> navigate('/estoque')}
                 className="cancelar-button">Cancelar
                 </button>
               </div>
