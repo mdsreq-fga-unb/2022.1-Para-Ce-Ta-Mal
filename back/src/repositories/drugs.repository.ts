@@ -1,13 +1,25 @@
 import { prisma } from "../config/database.js";
 import { CreateDrugData } from "../interfaces/drugs.interface.js";
 
-async function getDrugs() {}
+export async function getAllDrugs() {
+  return prisma.drug.findMany();
+}
 
-async function createDrug(drugData: CreateDrugData) {
+export async function createDrug(drugData: CreateDrugData) {
   return prisma.drug.create({
     data: { ...drugData },
   });
 }
 
-async function deleteDrug() {}
-export default { getDrugs, createDrug, deleteDrug };
+export async function updateDrugById(id: number, data: CreateDrugData) {
+  return prisma.drug.update({
+    where: { id },
+    data,
+  });
+}
+
+export async function deleteDrugById(id: number) {
+  return prisma.drug.delete({
+    where: { id },
+  });
+}

@@ -1,11 +1,18 @@
 import { CreateDrugData } from "../interfaces/drugs.interface.js";
-import drugsRepository from "../repositories/drugs.repository.js";
+import * as drugsRepository from "../repositories/drugs.repository.js";
 
-async function getDrugs() {}
+export async function getAllDrugs() {
+  return drugsRepository.getAllDrugs();
+}
 
-async function createDrug(drugData: CreateDrugData) {
+export async function createDrug(drugData: CreateDrugData) {
   return drugsRepository.createDrug(drugData);
 }
 
-async function deleteDrug() {}
-export default { getDrugs, createDrug, deleteDrug };
+export async function updateDrugById(id: number, drugData: CreateDrugData) {
+  return drugsRepository.updateDrugById(id, drugData);
+}
+
+export async function deleteDrugById(id: number) {
+  return drugsRepository.deleteDrugById(id);
+}
