@@ -6,6 +6,8 @@ import api from "../../../services/api";
 import "./CadastrarProduto.css";
 
 export default function CadastrarProduto() {
+  const navigate = useNavigate();
+
   const [formData, setFormData] = useState({
     name: "",
     image: "",
@@ -19,15 +21,33 @@ export default function CadastrarProduto() {
     fixedCommissionValue: 0,
   });
 
+  const names = [
+    "amount",
+    "fixedCommissionValue",
+    "maxDiscountPercentage",
+    "percentageOfCommission",
+    "purchasePrice",
+    "salePrice",
+  ];
+
   function handleChange({ target }) {
-    setFormData({ ...formData, [target.name]: target.value });
+    if (names.includes(target.name)) {
+      setFormData({ ...formData, [target.name]: Number(target.value) });
+    } else {
+      setFormData({ ...formData, [target.name]: target.value });
+    }
   }
 
   async function handleSubmit(event) {
     event.preventDefault();
 
+    console.log(formData);
+
     try {
-      await api.createDrug(formData);
+      const res = await api.createDrug(formData);
+
+      navigate("/");
+      console.log(res.data);
     } catch (error) {
       console.log(error);
     }
@@ -157,9 +177,10 @@ export default function CadastrarProduto() {
               </div>
 
               <div className="valor-fixo-input">
-                <label className="label-name">Imagem </label>
+                <label className="label-name">Imagem</label>
                 <br />
                 <input
+                  onChange={(e) => handleChange(e)}
                   name="image"
                   className="input-border"
                   type="text"
@@ -171,11 +192,8 @@ export default function CadastrarProduto() {
                 <button className="cadastrar-produto-button" type="submit">
                   Cadastrar Produto
                 </button>
-                <button 
-                className="cancelar-button">Cancelar
-                </button>
+                <button className="cancelar-button">Cancelar</button>
               </div>
-              
             </form>
           </div>
         </main>

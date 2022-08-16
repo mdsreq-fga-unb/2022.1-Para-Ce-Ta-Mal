@@ -9,4 +9,10 @@ function createDrug(body) {
   return promise;
 }
 
-export default { createDrug };
+function getAllDrugs(body) {
+  const promise = axios.get(`${BASE_URL}/drugs`);
+
+  return promise;
+}
+
+export default { createDrug, getAllDrugs };
