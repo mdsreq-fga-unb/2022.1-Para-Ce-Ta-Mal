@@ -2,14 +2,37 @@ import React, { useState } from "react";
 
 import { FaArrowAltCircleLeft } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import api from "../../../services/api";
 import "./CadastrarProduto.css";
 
 export default function CadastrarProduto() {
-  const [body, setBody] = useState({});
-  function handleSubmit(event) {
-    event.preventDefault();
-    console.log(event.target);
+  const [formData, setFormData] = useState({
+    name: "",
+    image: "",
+    ean: "",
+    amount: 0,
+    salePrice: 0,
+    purchasePrice: 0,
+    category: "",
+    maxDiscountPercentage: 0,
+    percentageOfCommission: 0,
+    fixedCommissionValue: 0,
+  });
+
+  function handleChange({ target }) {
+    setFormData({ ...formData, [target.name]: target.value });
   }
+
+  async function handleSubmit(event) {
+    event.preventDefault();
+
+    try {
+      await api.createDrug(formData);
+    } catch (error) {
+      console.log(error);
+    }
+  }
+
   return (
     <>
       <div className="content">
@@ -25,10 +48,11 @@ export default function CadastrarProduto() {
                 <label className="label-name">Nome do Produto:</label>
                 <br />
                 <input
+                  onChange={(e) => handleChange(e)}
                   className="input-border"
                   type="text"
                   placeholder="Nome do Produto"
-                  name="productName"
+                  name="name"
                 />
               </div>
 
@@ -36,7 +60,8 @@ export default function CadastrarProduto() {
                 <label className="label-name">EAN: </label>
                 <br />
                 <input
-                  name="EAN"
+                  onChange={(e) => handleChange(e)}
+                  name="ean"
                   className="input-border"
                   type="text"
                   placeholder="Ean"
@@ -44,13 +69,14 @@ export default function CadastrarProduto() {
               </div>
 
               <div className="estoque-input">
-                <label className="label-name">Estoque:</label>
+                <label className="label-name">Quantidade:</label>
                 <br />
                 <input
-                  name="Estoque"
+                  onChange={(e) => handleChange(e)}
+                  name="amount"
                   className="input-border"
                   type="text"
-                  placeholder="Estoque"
+                  placeholder="Quantidade"
                 />
               </div>
 
@@ -58,7 +84,8 @@ export default function CadastrarProduto() {
                 <label className="label-name">Preço de custo:</label>
                 <br />
                 <input
-                  name="PreçoDeCusto"
+                  onChange={(e) => handleChange(e)}
+                  name="purchasePrice"
                   className="input-border"
                   type="money"
                   placeholder="Preço de custo"
@@ -69,7 +96,8 @@ export default function CadastrarProduto() {
                 <label className="label-name">Preço de venda:</label>
                 <br />
                 <input
-                  name="PreçoDeVenda"
+                  onChange={(e) => handleChange(e)}
+                  name="salePrice"
                   className="input-border"
                   type="money"
                   placeholder="Preço de venda"
@@ -80,15 +108,15 @@ export default function CadastrarProduto() {
                 <label className="label-name">Categoria: </label>
                 <br />
                 <select
-                  name="Categoria"
+                  defaultValue={"Escolha a opção"}
+                  name="category"
                   id="categoria"
                   className="input-border"
+                  onChange={(e) => handleChange(e)}
                 >
-                  <option selected="true" disabled="disabled">
-                    Escolha a opção
-                  </option>
-                  <option value="Medicamento"></option>
-                  <option value="Perfumaria"></option>
+                  <option disabled="disabled">Escolha a opção</option>
+                  <option value="Medicamento">Medicamento</option>
+                  <option value="Perfumaria">Perfumaria</option>
                 </select>
               </div>
 
@@ -96,7 +124,8 @@ export default function CadastrarProduto() {
                 <label className="label-name">Valor Máximo Desconto:</label>
                 <br />
                 <input
-                  name="ValorMaximoDesconto"
+                  onChange={(e) => handleChange(e)}
+                  name="maxDiscountPercentage"
                   className="input-border"
                   type="money"
                   placeholder="Valor Máximo Desconto"
@@ -107,7 +136,8 @@ export default function CadastrarProduto() {
                 <label className="label-name">Percentual de Comissão:</label>
                 <br />
                 <input
-                  name="PercentualDeComissão"
+                  onChange={(e) => handleChange(e)}
+                  name="percentageOfCommission"
                   className="input-border"
                   type="text"
                   placeholder="Percentual de Comissão"
@@ -118,7 +148,8 @@ export default function CadastrarProduto() {
                 <label className="label-name">Valor Fixo de Comissão:</label>
                 <br />
                 <input
-                  name="ValorFixoDeComissão"
+                  onChange={(e) => handleChange(e)}
+                  name="fixedCommissionValue"
                   className="input-border"
                   type="text"
                   placeholder="Valor Fixo de Comissão"
