@@ -7,7 +7,7 @@
   "scripts": {
     "heroku-postbuild": "npx prisma migrate deploy && tsc",
     "build": "tsc",
-    "start": "node ./dist/src/server.ts",
+    "start": "node ./dist/server.js",
     "dev": "npx nodemon src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
