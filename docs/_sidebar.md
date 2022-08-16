@@ -5,6 +5,7 @@
     - [Backlog do Produto](./wiki/backlog.md)
     - [Product Backlog Building](./wiki/pbb.md)
     - [Workshop](./wiki/Workshop.md)
+    - [Apresentações](./wiki/apresentacoes.md)
     
     
 - Repositório

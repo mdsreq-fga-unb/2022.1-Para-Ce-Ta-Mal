@@ -1,0 +1,9 @@
+# Apresentações
+
+Este arquivo contêm os vídeos de apresentações do projeto referente as disciplinas de Requisitos de Software(REQ) e Métodos de Desenvolvimento de Software(MDS).
+
+## Unidade 1
+
+### REQ e MDS
+
+Apresentação da Unidade 1: https://www.youtube.com/watch?v=EXdARCLqR9Q
