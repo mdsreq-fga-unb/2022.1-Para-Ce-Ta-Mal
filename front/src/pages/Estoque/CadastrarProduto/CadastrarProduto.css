@@ -75,8 +75,8 @@ textarea {
   grid-template-areas:
     "inputA inputA inputA inputB"
     "inputC inputD inputE inputF"
-    "inputG inputH inputI ghost"
-    "inputJ inputM K k";
+    "inputG inputH inputI inputJ"
+    "inputM inputM K k";
   gap: 1rem;
   margin-left: 10px;
   margin-right: 10px;
@@ -118,6 +118,9 @@ textarea {
 }
 .container-inputs > div:nth-child(12) {
   grid-area: inputN;
+}
+.container-inputs > div:nth-child(13) {
+  grid-area: inputZ;
 }
 
 .App-header {
