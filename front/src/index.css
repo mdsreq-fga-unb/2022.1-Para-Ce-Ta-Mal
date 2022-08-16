@@ -13,7 +13,7 @@ code {
 }
 
 .topnav {
-  background-color: #333;
+  background-color: black;
   overflow: hidden;
 
 }
@@ -34,17 +34,90 @@ code {
   color: rgb(0, 0, 0);
 }
 
+.search_box{
+  width: 50%;
+  position: relative;
+}
+
+.search_box input[type="text"] {
+  width: 100%;
+  padding: 20px;
+  padding-right: 60px;
+  box-sizing: border-box;
+  background: rgba(0,0,0,0.3);
+  font-size: 18px;
+  color: white;
+}
+
+::-webkit-input-placeholder{
+  color: white;
+}
+
+::-moz-placeholder{
+  color: #fff;
+}
+
+::-ms-input-placeholder{
+  color: #fff;
+}
+
+.sidebar ul a{ 
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 20px;
+  color: white;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255,255,255, .1);
+  border-bottom: 1px solid black;
+  transition: .4s;
+}
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.wrapper{
+  display:flex;
+  justify-content: center;
+}
+
+ul li:hover a{
+  padding-left: 50px;
+}
+
+.sidebar ul a i{
+  margin-right: 16px;
+}
+
+.icon-sidebar {
+  color: white;
+  align-self: center;
+  align-items: center;
+  width: 80%;
+  height: auto;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  width: 70px;
+  height: 100%;
+  background: black;
+}
 .electron-back {
   background-color: #5d5a5a;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  outline: solid red;
   height: 100%;
   width: 80%;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .box {
@@ -55,8 +128,8 @@ code {
   flex-direction: column;
   border-radius: 10px;
   margin: 20px;
-
 }
+
 .box-row {
   display: flex;
   flex-direction: row;
@@ -70,8 +143,7 @@ code {
   height: auto;
 }
 
-
-h3   {
+h3 {
   color: #14c38e;
   text-align: center;
 }
@@ -92,5 +164,21 @@ body {
   align-items: center;
   justify-content: center;
   max-width: 1500px;
+}
 
+.icon-search {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 25px;
+  color: #fff;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 425px){
+  .search_box{
+    width: 50%;
+    position: relative;
+  }
+   
 }
