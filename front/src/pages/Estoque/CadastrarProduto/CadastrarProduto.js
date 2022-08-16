@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 
 import { FaArrowAltCircleLeft } from "react-icons/fa";
 import "./CadastrarProduto.css";
 
-function Estoque() {
+export default function CadastrarProduto() {
+  const [body, setBody] = useState({});
+  function handleSubmit(event) {
+    console.log(event);
+  }
   return (
     <>
       <div className="content">
@@ -14,8 +18,8 @@ function Estoque() {
               CADASTRAR PRODUTO
             </div>
 
-            <div className="container-inputs">
-              <form className="nome-produto">
+            <form className="container-inputs" onSubmit={handleSubmit}>
+              <div className="nome-produto">
                 <label className="label-name">Nome do Produto:</label>
                 <br />
                 <input
@@ -23,15 +27,15 @@ function Estoque() {
                   type="text"
                   placeholder="Nome do Produto"
                 />
-              </form>
+              </div>
 
-              <form className="ean-input">
+              <div className="ean-input">
                 <label className="label-name">EAN: </label>
                 <br />
                 <input className="input-border" type="text" placeholder="Ean" />
-              </form>
+              </div>
 
-              <form className="estoque-input">
+              <div className="estoque-input">
                 <label className="label-name">Estoque:</label>
                 <br />
                 <input
@@ -39,9 +43,9 @@ function Estoque() {
                   type="text"
                   placeholder="Estoque"
                 />
-              </form>
+              </div>
 
-              <form className="preco-custo-input">
+              <div className="preco-custo-input">
                 <label className="label-name">Preço de custo:</label>
                 <br />
                 <input
@@ -49,9 +53,9 @@ function Estoque() {
                   type="money"
                   placeholder="Preço de custo"
                 />
-              </form>
+              </div>
 
-              <form className="preco-venda-input">
+              <div className="preco-venda-input">
                 <label className="label-name">Preço de venda:</label>
                 <br />
                 <input
@@ -59,9 +63,9 @@ function Estoque() {
                   type="money"
                   placeholder="Preço de venda"
                 />
-              </form>
+              </div>
 
-              <form className="categoria-input">
+              <div className="categoria-input">
                 <label className="label-name">Categoria: </label>
                 <br />
                 <select
@@ -75,9 +79,9 @@ function Estoque() {
                   <option value="Medicamento"></option>
                   <option value="Perfumaria"></option>
                 </select>
-              </form>
+              </div>
 
-              <form className="valor-maximo-desconto-input">
+              <div className="valor-maximo-desconto-input">
                 <label className="label-name">Valor Máximo Desconto:</label>
                 <br />
                 <input
@@ -85,9 +89,9 @@ function Estoque() {
                   type="money"
                   placeholder="Valor Máximo Desconto"
                 />
-              </form>
+              </div>
 
-              <form className="nome-produto">
+              <div className="nome-produto">
                 <label className="label-name">Percentual de Comissão:</label>
                 <br />
                 <input
@@ -95,9 +99,9 @@ function Estoque() {
                   type="text"
                   placeholder="Percentual de Comissão"
                 />
-              </form>
+              </div>
 
-              <form className="nome-produto">
+              <div className="nome-produto">
                 <label className="label-name">Valor Fixo de Comissão:</label>
                 <br />
                 <input
@@ -105,20 +109,18 @@ function Estoque() {
                   type="text"
                   placeholder="Valor Fixo de Comissão"
                 />
-              </form>
-            </div>
+              </div>
 
-            <div className="outline-button">
-              <button className="cadastrar-produto-button">
-                Cadastrar Produto
-              </button>
-              <button className="cancelar-button">Cancelar</button>
-            </div>
+              <div className="outline-button">
+                <button className="cadastrar-produto-button" type="submit">
+                  Cadastrar Produto
+                </button>
+                <button className="cancelar-button">Cancelar</button>
+              </div>
+            </form>
           </div>
         </main>
       </div>
     </>
   );
 }
-
-export default Estoque;
