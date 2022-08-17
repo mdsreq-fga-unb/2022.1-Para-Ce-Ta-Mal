@@ -10,4 +10,17 @@
 
   background-color: #151515;
   color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.electronPharm{
+  margin-left: 16px;
+}
+
+.username{
+  margin-right: 16px;
+  font-size: 1.25rem;
 }
