@@ -11,13 +11,16 @@ const App = () => {
 
   return (
     <>
-      <HashRouter>
-        <Routes>
-          <Route path="/" exact element={ Menu } />
-          <Route path="/vendas"  element={ Vendas } />
-          <Route path="/estoque" element={ Estoque } />
-        </Routes>
-      </HashRouter>
+      <div>
+        <HashRouter>
+          <Routes>
+            <Route path="/" exact element={ <Menu/> } />
+            <Route path="/vendas"  element={ <Vendas/>} />
+            <Route path="/estoque" element={ <Estoque/> } />
+          </Routes>
+        </HashRouter>
+      </div>
+
     </>
   );
 }
