@@ -5,7 +5,7 @@ const Vendas = () => {
   const navigate = useNavigate();
   return(
     <>
-      <h1>Hello World</h1>
+      
     </>
   )
 }
