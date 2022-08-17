@@ -4,6 +4,8 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import Menu from './pages/Menu/Menu';
 import Vendas from "./pages/Vendas/Vendas";
 import Estoque from './pages/Estoque/Estoque';
+import Header from "./components/Header/Header";
+
 
 import "./App.css";
 
@@ -12,6 +14,7 @@ const App = () => {
   return (
     <>
       <div>
+        <Header/>
         <HashRouter>
           <Routes>
             <Route path="/" exact element={ <Menu/> } />
