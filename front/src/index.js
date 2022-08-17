@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
+import Vendas from "./pages/Vendas/Vendas";
 import Estoque from "./pages/Estoque/Estoque.js";
 import CadastrarProduto from "./pages/Estoque/CadastrarProduto/CadastrarProduto.js";
 import EditarProduto from "./pages/Estoque/EditarProduto/EditarProduto.js";
@@ -19,6 +20,8 @@ root.render(
           <Route path="/" element={<App />} />
 
           <Route path="/estoque" element={<Estoque />} />
+
+          <Route path="/vendas" element={<Vendas />} />
 
           <Route path="/cadastrar-produto" element={<CadastrarProduto />} />
 

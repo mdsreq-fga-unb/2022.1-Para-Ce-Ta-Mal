@@ -17,7 +17,7 @@ function App() {
         <div className="menu">
           <div className="electron-back">
             <div className="box">
-              <FaShoppingCart className="icons" />
+              <FaShoppingCart className="icons" onClick={() => navigate("/vendas")}/>
               <h3> Vender</h3>
             </div>
 
