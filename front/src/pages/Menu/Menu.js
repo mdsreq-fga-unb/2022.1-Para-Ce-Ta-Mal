@@ -21,11 +21,22 @@ function Menu() {
             <FaShoppingCart className="menu-icon"/>
             <p>Vendas</p>
           </div>
-          <div className="menu-button"></div>
-          <div className="menu-button"></div>
-          <div className="menu-button"></div>
-          <div className="menu-button"></div>
-          <div className="menu-button"></div>
+          <div className="menu-button">
+            <FaCashRegister className="menu-icon"/>
+            <p>Caixa</p>
+          </div>          <div className="menu-button">
+            <FaBoxOpen className="menu-icon"/>
+            <p>Estoque</p>
+          </div>          <div className="menu-button">
+            <FaChartLine className="menu-icon"/>
+            <p>Financeiro</p>
+          </div>          <div className="menu-button">
+            <FaUserTie className="menu-icon"/>
+            <p>Gerência</p>
+          </div>          <div className="menu-button">
+            <GoGear className="menu-icon"/>
+            <p>Configurações</p>
+          </div>
       </div>
     </>
   );
