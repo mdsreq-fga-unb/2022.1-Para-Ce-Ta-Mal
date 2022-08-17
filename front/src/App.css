@@ -11,13 +11,6 @@ body{
   background-color: var(--background-gray);
 }
 
-.menu{
-  position: absolute;
-  top: 7.5vh;
-  left: 0;
-  height: 92.5vh;
-  width: 100vw;
-}
 
 .pages{
   position: absolute;

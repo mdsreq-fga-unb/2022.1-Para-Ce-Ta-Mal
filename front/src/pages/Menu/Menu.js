@@ -16,8 +16,16 @@ function Menu() {
 
   return (
     <>
-      <div className="menu menu-container">
-        <div className="menu-button"></div>
+      <div className="menu-container">
+          <div className="menu-button">
+            <FaShoppingCart className="menu-icon"/>
+            <p>Vendas</p>
+          </div>
+          <div className="menu-button"></div>
+          <div className="menu-button"></div>
+          <div className="menu-button"></div>
+          <div className="menu-button"></div>
+          <div className="menu-button"></div>
       </div>
     </>
   );
