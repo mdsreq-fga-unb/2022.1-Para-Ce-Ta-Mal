@@ -1,0 +1,14 @@
+@import url('../../App.css');
+
+.menu-container{
+  background-color: red;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 25vw);
+}
+
+.menu-button{
+  width: 20vw;
+  height: 20vw;
+  background-color: var(--components-black);
+  color: var(--electron-green);
+}
