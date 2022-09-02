@@ -1,6 +1,6 @@
 # CANVAS MVP
 
-É uma forma visual de alinhar a estratégia e construção da versão mínima do produto com o auxílio dos donos do negócio. [Clique aqui](https://miro.com/app/board/uXjVOlmzVLk=/?share_link_id=2986912574) para acessar o CANVAS MVP no miro.
+É uma forma visual de alinhar a estratégia e construção da versão mínima do produto com o auxílio dos donos do negócio. [Clique aqui](https://miro.com/app/board/uXjVOlmzVLk=/?share_link_id=2986912574) para acessar o CANVAS MVP no Miro.
 
 ## Personas:
 - Daiane: Caixa de farmácia, 19 anos, ensino médio completo.
