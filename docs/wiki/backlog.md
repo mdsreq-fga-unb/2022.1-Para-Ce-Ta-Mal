@@ -79,13 +79,11 @@ O backlog será ajustado ao decorrer do projeto, de acordo com as necessidade da
 |F5US08|Eu, como funcionário, desejo realizar login no sistema.|Baixa|Pendente|
 |F5US09|Eu, como funcionário, desejo realizar logout do sistema.|Baixa|Pendente|
 
-## Proposta de MVP 1
+## Proposta de MVP
 - Feature 04 - Controle de Estoque
-- Feature 01 - Orçamento
-
-## Proposta de MVP 2
-- Feature 03 - Cobrança
-- Feature 02 - Entregas residenciais
 
 ## Incrementos
+- Feature 01 - Orçamento
+- Feature 02 - Entregas residenciais
+- Feature 03 - Cobrança
 - Feature 05 - Gerenciamento de Funcionários
