@@ -1,10 +1,9 @@
-import firebase from "firebase-admin";
-import serviceAccountKey from "../../serviceAccountKey.js";
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+import { firebaseConfig } from "../../firebaseConfig.js";
 
-firebase.initializeApp({
-  credential: firebase.credential.cert(
-    JSON.parse(JSON.stringify(serviceAccountKey))
-  ),
-});
+const app = initializeApp(firebaseConfig);
 
-export default firebase;
+export const auth = getAuth();
+
+export default app;

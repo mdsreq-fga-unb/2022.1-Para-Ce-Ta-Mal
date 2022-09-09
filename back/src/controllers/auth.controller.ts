@@ -1,19 +1,32 @@
 import { Request, Response } from "express";
-import firebase from "../config/firebase.js";
+import {
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+  sendEmailVerification,
+  UserCredential,
+} from "firebase/auth";
+import { auth } from "../config/firebase.js";
+import authService from "../services/auth.service.js";
+import { conflictError } from "../utils/error-utils.js";
 
-async function signIn(req: Request, res: Response) {}
+async function signIn(req: Request, res: Response) {
+  const body = req.body as { email: string; password: string };
+
+  const userResponse = await authService.signIn(body.email, body.password);
+
+  res.send(userResponse);
+}
 
 async function signUp(req: Request, res: Response) {
   const body = req.body as { email: string; password: string };
 
-  const userResponse = await firebase.auth().createUser({
-    email: body.email,
-    password: body.password,
-    emailVerified: false,
-    disabled: false,
-  });
+  try {
+    const userResponse = await authService.signUp(body.email, body.password);
 
-  res.send(userResponse);
+    res.send(userResponse);
+  } catch (error) {
+    throw conflictError("Email já cadastrado, tente fazer login.");
+  }
 }
 
 export default {
