@@ -11,9 +11,8 @@ datasource db {
 }
 
 model User {
-  id    Int     @id @default(autoincrement())
-  email String  @unique
-  name  String
+  id    String     @id
+  role   Role @default(EMPLOYEE)
 
   @@map("users")
 }
@@ -33,4 +32,9 @@ model Drug{
   description String?
 
   @@map("drugs")
+}
+
+enum Role {
+  ADMIN @map("Gerente")
+  EMPLOYEE @map("Funcionário")
 }

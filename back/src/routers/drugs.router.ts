@@ -1,20 +1,22 @@
 import { Router } from "express";
 import * as drugsController from "../controllers/drugs.controller.js";
+import { ensureAuthentication } from "../middlewares/ensure-authentication.middleware.js";
 import { validateSchema } from "../middlewares/validate-schema.middleware.js";
 import { drugSchema } from "../schemas/drugs.schema.js";
 
 const drugRouter = Router();
 
-drugRouter.get("/drugs", drugsController.getDrugs);
+drugRouter.get("/", ensureAuthentication, drugsController.getDrugs);
 
 drugRouter.post(
-  "/drugs",
+  "/",
+  ensureAuthentication,
   validateSchema(drugSchema),
   drugsController.createDrug
 );
 
-drugRouter.put("/drugs/:id", drugsController.updateDrugById);
+drugRouter.put("/:id", ensureAuthentication, drugsController.updateDrugById);
 
-drugRouter.delete("/drugs/:id", drugsController.deleteDrugById);
+drugRouter.delete("/:id", ensureAuthentication, drugsController.deleteDrugById);
 
 export default drugRouter;
