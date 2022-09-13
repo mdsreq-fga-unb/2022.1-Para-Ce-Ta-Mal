@@ -2,6 +2,8 @@ import { Request, Response } from "express";
 import * as drugsService from "../services/drugs.service.js";
 
 export async function getDrugs(req: Request, res: Response) {
+  console.log(res.locals);
+
   const dbDrugs = await drugsService.getAllDrugs();
 
   res.send(dbDrugs);
