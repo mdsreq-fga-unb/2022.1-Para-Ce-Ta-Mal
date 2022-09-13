@@ -8,10 +8,15 @@ const drugRouter = Router();
 
 drugRouter.get("/", ensureAuthentication, drugsController.getDrugs);
 
-drugRouter.post("/", validateSchema(drugSchema), drugsController.createDrug);
+drugRouter.post(
+  "/",
+  ensureAuthentication,
+  validateSchema(drugSchema),
+  drugsController.createDrug
+);
 
-drugRouter.put("/:id", drugsController.updateDrugById);
+drugRouter.put("/:id", ensureAuthentication, drugsController.updateDrugById);
 
-drugRouter.delete("/:id", drugsController.deleteDrugById);
+drugRouter.delete("/:id", ensureAuthentication, drugsController.deleteDrugById);
 
 export default drugRouter;
