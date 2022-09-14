@@ -9,6 +9,7 @@ import EditarProduto from "./pages/Estoque/EditarProduto/EditarProduto.js";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
+import Entry from "./pages/Entry/Entry";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,14 +17,15 @@ root.render(
     <BrowserRouter>
       <Layout>
         <Routes>
-          <Route path="/" element={<App />} />
+          <Route path="/" element={<Entry />} />
+
+          <Route path="/main" element={<App />} />
 
           <Route path="/estoque" element={<Estoque />} />
 
           <Route path="/cadastrar-produto" element={<CadastrarProduto />} />
 
           <Route path="/editar-produto" element={<EditarProduto />} />
-
         </Routes>
       </Layout>
     </BrowserRouter>

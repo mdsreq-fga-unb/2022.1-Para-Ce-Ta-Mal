@@ -15,15 +15,17 @@ export default function Layout({ children }) {
 
   return (
     <Container>
-      <header>
-        <div className="topnav">
-          <a onClick={() => navigate("/")} className="active">
-            ElectroPharm
-          </a>
-        </div>
-      </header>
-
       {location.pathname !== "/" && (
+        <header>
+          <div className="topnav">
+            <a onClick={() => navigate("/")} className="active">
+              ElectroPharm
+            </a>
+          </div>
+        </header>
+      )}
+
+      {location.pathname !== "/" && location.pathname !== "/main" && (
         <div className="sidebar">
           <ul>
             <li>
