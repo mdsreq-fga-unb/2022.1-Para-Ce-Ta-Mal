@@ -1,15 +1,18 @@
 import * as firebaseAuth from "firebase/auth";
 import { auth } from "../config/firebase.js";
 import authRepository from "../repositories/auth.repository.js";
-import { conflictError } from "../utils/error-utils.js";
+import { conflictError, unauthorizedError } from "../utils/error-utils.js";
 
 async function signIn(email: string, password: string) {
-  const userResponse = await firebaseAuth.signInWithEmailAndPassword(
-    auth,
-    email,
-    password
-  );
-
+  try {
+    var userResponse = await firebaseAuth.signInWithEmailAndPassword(
+      auth,
+      email,
+      password
+    );
+  } catch (error) {
+    throw unauthorizedError("E-mail ou senha errados!");
+  }
   if (!userResponse) throw conflictError("E-mail não cadastrado!");
 
   if (!userResponse.user.emailVerified) {

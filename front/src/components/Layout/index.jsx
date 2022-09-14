@@ -18,7 +18,7 @@ export default function Layout({ children }) {
       {location.pathname !== "/" && (
         <header>
           <div className="topnav">
-            <a onClick={() => navigate("/")} className="active">
+            <a onClick={() => navigate("/main")} className="active">
               ElectroPharm
             </a>
           </div>

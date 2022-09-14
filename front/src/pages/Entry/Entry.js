@@ -3,14 +3,23 @@ import styled from "styled-components";
 import SignIn from "./SignIn/SignIn";
 import SignUp from "./SignUp/SignUp";
 
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 export default function Entry() {
   const [page, setPage] = useState("sign-in");
 
   return (
     <Container>
+      <ToastContainer />
+
       <Logo>ELECTROPHARM</Logo>
 
-      {page === "sign-in" ? <SignIn /> : <SignUp />}
+      {page === "sign-in" ? (
+        <SignIn setPage={setPage} toast={toast} />
+      ) : (
+        <SignUp setPage={setPage} toast={toast} />
+      )}
     </Container>
   );
 }
