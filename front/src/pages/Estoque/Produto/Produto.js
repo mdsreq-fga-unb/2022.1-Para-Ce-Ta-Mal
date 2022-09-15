@@ -8,7 +8,6 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function Produto(product) {
-  console.log(product);
   const navigate = useNavigate();
   const {
     user: { token },

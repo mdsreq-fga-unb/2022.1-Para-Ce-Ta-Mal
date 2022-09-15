@@ -31,7 +31,9 @@ function App() {
   }
 
   useEffect(() => {
-    fetchData();
+    if (token) {
+      fetchData();
+    }
   }, []);
 
   if (!showPage) {

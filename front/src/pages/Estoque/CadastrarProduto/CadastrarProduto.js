@@ -210,6 +210,7 @@ export default function CadastrarProduto() {
                 <button
                   style={{ cursor: "pointer" }}
                   className="cancelar-button"
+                  onClick={()=>navigate("/estoque")}
                 >
                   Cancelar
                 </button>

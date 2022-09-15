@@ -57,6 +57,19 @@ export default function EditarProduto() {
     }
   }
 
+  async function handleDeleteDrug() {
+    try {
+      await api.deleteDrug(formData.id, token);
+
+      toast("Produto deletado com sucesso!");
+
+      navigate("/estoque");
+    } catch (error) {
+      console.log(error);
+      toast("Não foi possível deletar o produto.");
+    }
+  }
+
   async function fetchData() {
     try {
       const { data } = await api.getOneDrug(id, token);
@@ -234,6 +247,7 @@ export default function EditarProduto() {
                 <button
                   style={{ cursor: "pointer", backgroundColor: "red" }}
                   className="cancelar-button"
+                  onClick={handleDeleteDrug}
                 >
                   Excluir
                 </button>

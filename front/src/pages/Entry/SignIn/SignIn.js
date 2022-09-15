@@ -8,10 +8,7 @@ import { ThreeCircles } from "react-loader-spinner";
 export default function SignIn({ setPage, toast }) {
   const navigate = useNavigate();
 
-  const {
-    user: { token },
-    persistUser,
-  } = useUser();
+  const { persistUser } = useUser();
 
   const [formData, setFormData] = useState({
     email: "",

@@ -4,8 +4,6 @@ import styled from "styled-components";
 import api from "../../../services/api";
 
 export default function SignUp({ setPage, toast }) {
-  const navigate = useNavigate();
-
   const [formData, setFormData] = useState({
     name: "",
     email: "",
