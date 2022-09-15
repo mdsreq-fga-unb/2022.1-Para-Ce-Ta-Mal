@@ -2,11 +2,17 @@ import React, { useState } from "react";
 
 import { FaArrowAltCircleLeft } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import { useUser } from "../../../contexts/UserContext";
 import api from "../../../services/api";
 import "./CadastrarProduto.css";
 
+import { toast, ToastContainer } from "react-toastify";
+
 export default function CadastrarProduto() {
   const navigate = useNavigate();
+  const {
+    user: { token },
+  } = useUser();
 
   const [formData, setFormData] = useState({
     name: "",
@@ -41,25 +47,30 @@ export default function CadastrarProduto() {
   async function handleSubmit(event) {
     event.preventDefault();
 
-    console.log(formData);
-
     try {
-      const res = await api.createDrug(formData);
+      const res = await api.createDrug(formData, token);
 
-      navigate("/");
       console.log(res.data);
+      navigate("/estoque");
     } catch (error) {
       console.log(error);
+      toast("Não foi possível cadastrar o produto.");
     }
   }
 
   return (
     <>
+      <ToastContainer />
+
       <div className="content">
         <main>
           <div className="electron-back">
             <div href="#" className="titulo-page">
-              <FaArrowAltCircleLeft className="icon-back" />
+              <FaArrowAltCircleLeft
+                style={{ cursor: "pointer" }}
+                className="icon-back"
+                onClick={() => navigate("/estoque")}
+              />
               CADASTRAR PRODUTO
             </div>
 
@@ -189,10 +200,21 @@ export default function CadastrarProduto() {
               </div>
 
               <div className="outline-button">
-                <button className="cadastrar-produto-button" type="submit">
+                <button
+                  style={{ cursor: "pointer" }}
+                  className="cadastrar-produto-button"
+                  type="submit"
+                >
                   Cadastrar Produto
                 </button>
-                <button className="cancelar-button">Cancelar</button>
+
+                <button
+                  style={{ cursor: "pointer" }}
+                  className="cancelar-button"
+                  onClick={() => navigate("/estoque")}
+                >
+                  Cancelar
+                </button>
               </div>
             </form>
           </div>

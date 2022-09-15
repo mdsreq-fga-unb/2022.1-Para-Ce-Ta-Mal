@@ -15,43 +15,45 @@ export default function Layout({ children }) {
 
   return (
     <Container>
-      <header>
-        <div className="topnav">
-          <a onClick={() => navigate("/")} className="active">
-            ElectroPharm
-          </a>
-        </div>
-      </header>
-
       {location.pathname !== "/" && (
+        <header>
+          <div className="topnav">
+            <a onClick={() => navigate("/main")} className="active">
+              ElectroPharm
+            </a>
+          </div>
+        </header>
+      )}
+
+      {location.pathname !== "/" && location.pathname !== "/main" && (
         <div className="sidebar">
           <ul>
-            <li>
+            <li className="icon-box">
               <a href="#">
                 <FaShoppingCart className="icon-sidebar" />
               </a>
             </li>
-            <li>
+            <li className="icon-box">
               <a href="#">
                 <FaCashRegister className="icon-sidebar" />
               </a>
             </li>
-            <li>
+            <li className="icon-box">
               <a onClick={() => navigate("/estoque")}>
                 <FaBoxOpen className="icon-sidebar" />
               </a>
             </li>
-            <li>
+            <li className="icon-box">
               <a href="#">
                 <FaUserTie className="icon-sidebar" />
               </a>
             </li>
-            <li>
+            <li className="icon-box">
               <a href="#">
                 <FaChartLine className="icon-sidebar" />
               </a>
             </li>
-            <li>
+            <li className="icon-box">
               <a href="#">
                 <GoGear className="icon-sidebar" />
               </a>

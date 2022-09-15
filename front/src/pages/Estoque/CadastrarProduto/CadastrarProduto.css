@@ -237,7 +237,6 @@ textarea {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  margin-left: 100px;
 }
 
 .box {
@@ -298,7 +297,6 @@ body {
   color: #14c38e;
   height: 50px;
   width: 200px;
-  margin-right: 20px;
   background-color: black;
 }
 

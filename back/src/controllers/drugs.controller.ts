@@ -1,12 +1,18 @@
 import { Request, Response } from "express";
-import * as drugsService from "../services/drugs.service.js";
+import drugsService from "../services/drugs.service.js";
 
 export async function getDrugs(req: Request, res: Response) {
-  console.log(res.locals);
-
-  const dbDrugs = await drugsService.getAllDrugs();
+  const dbDrugs = await drugsService.getDrugs();
 
   res.send(dbDrugs);
+}
+
+export async function getOneDrug(req: Request, res: Response) {
+  const { id } = req.params;
+
+  const dbDrug = await drugsService.getOneDrug(Number(id));
+
+  res.send(dbDrug);
 }
 
 export async function createDrug(req: Request, res: Response) {

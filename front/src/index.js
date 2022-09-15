@@ -9,24 +9,29 @@ import EditarProduto from "./pages/Estoque/EditarProduto/EditarProduto.js";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
+import Entry from "./pages/Entry/Entry";
+import UserProvider from "./contexts/UserContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Layout>
-        <Routes>
-          <Route path="/" element={<App />} />
+    <UserProvider>
+      <BrowserRouter>
+        <Layout>
+          <Routes>
+            <Route path="/" element={<Entry />} />
 
-          <Route path="/estoque" element={<Estoque />} />
+            <Route path="/main" element={<App />} />
 
-          <Route path="/cadastrar-produto" element={<CadastrarProduto />} />
+            <Route path="/estoque" element={<Estoque />} />
 
-          <Route path="/editar-produto" element={<EditarProduto />} />
+            <Route path="/cadastrar-produto" element={<CadastrarProduto />} />
 
-        </Routes>
-      </Layout>
-    </BrowserRouter>
+            <Route path="/produto/:id" element={<EditarProduto />} />
+          </Routes>
+        </Layout>
+      </BrowserRouter>
+    </UserProvider>
   </React.StrictMode>
 );
 
