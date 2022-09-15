@@ -8,10 +8,19 @@ import { FaBoxOpen } from "react-icons/fa";
 import { FaUserTie } from "react-icons/fa";
 import { FaChartLine } from "react-icons/fa";
 import { GoGear } from "react-icons/go";
+import { BiExit } from "react-icons/bi";
+import { useUser } from "../../contexts/UserContext";
 
 export default function Layout({ children }) {
   const navigate = useNavigate();
   const location = useLocation();
+
+  const { persistUser } = useUser();
+
+  function handleExitButton() {
+    persistUser(null);
+    navigate("/");
+  }
 
   return (
     <Container>
@@ -21,6 +30,13 @@ export default function Layout({ children }) {
             <a onClick={() => navigate("/main")} className="active">
               ElectroPharm
             </a>
+
+            <BiExit
+              style={{ cursor: "pointer", marginRight: 20 }}
+              color="white"
+              size={25}
+              onClick={handleExitButton}
+            />
           </div>
         </header>
       )}
