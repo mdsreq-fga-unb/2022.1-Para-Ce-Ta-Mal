@@ -73,6 +73,14 @@ code {
   height: auto;
 }
 
+.icon-box {
+  cursor: pointer;
+}
+
+.icon-box:hover {
+  background-color: #777;
+}
+
 h3 {
   color: #14c38e;
   text-align: center;
