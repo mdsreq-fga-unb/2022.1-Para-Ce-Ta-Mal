@@ -30,6 +30,7 @@ export default function SignUp({ setPage, toast }) {
 
     delete formData.confirmPassword;
     try {
+      console.log(formData);
       const res = await api.SignUp(formData);
 
       toast(res.data);
@@ -45,18 +46,21 @@ export default function SignUp({ setPage, toast }) {
     <Container>
       <form onSubmit={handleSubmit}>
         <input
+          value={formData.name}
           placeholder="Nome Completo"
           type={"name"}
           onChange={(e) => setFormData({ ...formData, name: e.target.value })}
         />
 
         <input
+          value={formData.email}
           placeholder="E-mail"
           type={"email"}
           onChange={(e) => setFormData({ ...formData, email: e.target.value })}
         />
 
         <input
+          value={formData.password}
           placeholder="Senha"
           type={"password"}
           onChange={(e) =>
@@ -65,6 +69,7 @@ export default function SignUp({ setPage, toast }) {
         />
 
         <input
+          value={formData.confirmPassword}
           placeholder="Confirmar Senha"
           type={"password"}
           onChange={(e) =>

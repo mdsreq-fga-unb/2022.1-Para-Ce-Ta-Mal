@@ -5,6 +5,12 @@ async function getDrugs() {
   return prisma.drug.findMany();
 }
 
+async function getOneDrug(id: number) {
+  return prisma.drug.findUnique({
+    where: { id },
+  });
+}
+
 async function createDrug(drugData: CreateDrugData) {
   return prisma.drug.create({
     data: { ...drugData },
@@ -32,6 +38,7 @@ async function findDrugByEAN(ean: number) {
 
 export default {
   getDrugs,
+  getOneDrug,
   createDrug,
   updateDrugById,
   deleteDrugById,

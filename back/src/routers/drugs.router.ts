@@ -8,6 +8,8 @@ const drugRouter = Router();
 
 drugRouter.get("/", ensureAuthentication, drugsController.getDrugs);
 
+drugRouter.get("/:id", ensureAuthentication, drugsController.getOneDrug);
+
 drugRouter.post(
   "/",
   ensureAuthentication,

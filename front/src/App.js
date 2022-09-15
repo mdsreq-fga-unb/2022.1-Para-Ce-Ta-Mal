@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { FaShoppingCart } from "react-icons/fa";
 import { FaCashRegister } from "react-icons/fa";
 import { FaBoxOpen } from "react-icons/fa";
@@ -7,9 +7,47 @@ import { FaChartLine } from "react-icons/fa";
 import { GoGear } from "react-icons/go";
 import { useNavigate } from "react-router-dom";
 import "./App.css";
+import { useUser } from "./contexts/UserContext";
+import api from "./services/api";
+import { ThreeCircles } from "react-loader-spinner";
 
 function App() {
+  const [showPage, setShowPage] = useState(false);
+
   const navigate = useNavigate();
+  const {
+    user: { token },
+  } = useUser();
+
+  async function fetchData() {
+    try {
+      await api.checkToken(token);
+
+      setShowPage(true);
+    } catch (error) {
+      console.log(error);
+      navigate("/");
+    }
+  }
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  if (!showPage) {
+    return (
+      <div
+        style={{
+          display: "flex",
+          height: 1000,
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <ThreeCircles width={100} height={100} color="white" />
+      </div>
+    );
+  }
 
   return (
     <>

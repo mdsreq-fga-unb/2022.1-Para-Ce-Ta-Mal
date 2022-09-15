@@ -1,18 +1,27 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
+import { useUser } from "../../../contexts/UserContext";
 import api from "../../../services/api";
+import { ThreeCircles } from "react-loader-spinner";
 
 export default function SignIn({ setPage, toast }) {
   const navigate = useNavigate();
+
+  const {
+    user: { token },
+    persistUser,
+  } = useUser();
 
   const [formData, setFormData] = useState({
     email: "",
     password: "",
   });
+  const [spinner, setSpinner] = useState(false);
 
   async function handleSubmit(event) {
     event.preventDefault();
+    setSpinner(true);
 
     if (!formData.email || !formData.password) {
       return toast("Todos os campos devem ser preenchidos!");
@@ -20,12 +29,22 @@ export default function SignIn({ setPage, toast }) {
 
     try {
       const res = await api.SignIn(formData);
-      navigate("/");
+
+      persistUser(res.data);
       console.log(res.data);
 
-      toast("");
+      navigate("/main");
     } catch (error) {
-      console.log(error.response.data);
+      setSpinner(false);
+
+      if (error.response.status === 500) {
+        toast(
+          "Email não verificado, abre seu e-mail e confirme. Também confira o spam!"
+        );
+      } else {
+        toast(error.response.data);
+      }
+      console.log(error);
     }
   }
 
@@ -33,18 +52,22 @@ export default function SignIn({ setPage, toast }) {
     <Container>
       <form onSubmit={handleSubmit}>
         <input
+          value={formData.email}
           placeholder="E-mail"
           type={"email"}
           onChange={(e) => setFormData({ ...formData, email: e.target.value })}
         />
         <input
+          value={formData.password}
           placeholder="Senha"
           type={"password"}
           onChange={(e) =>
             setFormData({ ...formData, password: e.target.value })
           }
         />
-        <button type={"submit"}>Logar</button>
+        <button type={"submit"}>
+          {spinner ? <ThreeCircles color="white" width={40} /> : "Logar"}
+        </button>
       </form>
 
       <p onClick={() => setPage("sign-up")}>
