@@ -44,6 +44,8 @@
     ]
   },
   "devDependencies": {
+    "@faker-js/faker": "^7.5.0",
+    "cypress": "^10.8.0",
     "electron": "^20.0.1"
   }
 }
