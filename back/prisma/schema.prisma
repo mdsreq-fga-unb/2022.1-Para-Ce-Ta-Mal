@@ -21,7 +21,7 @@ model Drug{
   id    Int     @id @default(autoincrement())
   name  String
   image String 
-  ean String
+  ean String @unique
   amount Int
   salePrice Int
   purchasePrice Int
