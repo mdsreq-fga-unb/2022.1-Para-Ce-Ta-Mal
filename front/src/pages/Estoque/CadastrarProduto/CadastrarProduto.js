@@ -52,7 +52,11 @@ export default function CadastrarProduto() {
       console.log(error);
     }
   }
+<<<<<<< HEAD
+  const navigate = useNavigate();
+=======
 
+>>>>>>> af19f241f8695feb429f17d1858964257e65684c
   return (
     <>
       <div className="content">
@@ -192,7 +196,13 @@ export default function CadastrarProduto() {
                 <button className="cadastrar-produto-button" type="submit">
                   Cadastrar Produto
                 </button>
+<<<<<<< HEAD
+                <button onClick={()=> navigate('/estoque')}
+                className="cancelar-button">Cancelar
+                </button>
+=======
                 <button className="cancelar-button">Cancelar</button>
+>>>>>>> af19f241f8695feb429f17d1858964257e65684c
               </div>
             </form>
           </div>
