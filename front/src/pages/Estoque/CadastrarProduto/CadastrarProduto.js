@@ -207,6 +207,7 @@ export default function CadastrarProduto() {
                 >
                   Cadastrar Produto
                 </button>
+
                 <button
                   style={{ cursor: "pointer" }}
                   className="cancelar-button"
