@@ -25,6 +25,7 @@ export async function createDrug(req: Request, res: Response) {
 
 export async function updateDrugById(req: Request, res: Response) {
   const { body } = req;
+
   const id = Number(req.params.id);
 
   await drugsService.updateDrugById(id, body);
